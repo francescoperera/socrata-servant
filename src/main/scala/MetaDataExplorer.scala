@@ -13,6 +13,7 @@ case class DatasetTools(url:Option[String],colFieldName:String)
 object MetaDataExplorer extends LazyLogging with JsonWorkHorse{
 
   private val token = "GPGuyRELzwEXtRJbJDib89U59"
+  private val limit = 10
 
   /**
     * Takes type SocrataParams, reads the columns and sends an http request to Socrata with the given cols.
@@ -20,7 +21,7 @@ object MetaDataExplorer extends LazyLogging with JsonWorkHorse{
     * @return Http Response in String format
     */
   def sendRequest(sp:SocrataParams):HttpResponse[String] =
-    Http(s"http://api.us.socrata.com/api/catalog/v1?only=datasets&q=${sp.colFieldName}&limit=10000").header("X-App-Token",token).asString
+    Http(s"http://api.us.socrata.com/api/catalog/v1?only=datasets&q=${sp.colFieldName}&limit=$limit").header("X-App-Token",token).asString
 
   /**
     * Takes the body of a Http Response and returns the content under the key results
@@ -36,7 +37,7 @@ object MetaDataExplorer extends LazyLogging with JsonWorkHorse{
     * the object is replaced by  None
     * @param md - Vector of all metadata (Json) objects
     * @param col - column field name
-    * @return - Vector of permalinks
+    * @return - Vector of DatasetTools(url,column field name)
     */
   def checkCol(md:Option[Vector[Json]], col:String): Vector[DatasetTools]= {
     val fmd = md.get.map(obj => MetaData(obj.\\("resource").map(_.\\("columns_field_name")).head,obj.\\("permalink").head)) //fmd = filtered md

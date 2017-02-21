@@ -12,7 +12,7 @@ object SocrataServant extends App with LazyLogging with JsonWorkHorse {
   }
 
 
-  def fetchData(str:String):Vector[String] = {
+  def fetchData(str:String) = {
     val param = SocrataParams(str.toLowerCase.trim)
     val req = MetaDataExplorer.sendRequest(param)
     val md = MetaDataExplorer.getStringMetaData(req.body) // md = metadata
@@ -23,7 +23,8 @@ object SocrataServant extends App with LazyLogging with JsonWorkHorse {
     val fsd = sd.filter(_.isDefined) // fsd = filtered source data
     logger.info(s"Servant got data from ${fsd.size} datasets")
     val output = jsonify(fsd)
-    println(output.take(2))
+    output.take(2).foreach(println)
+    writeToFile(output.take(5),param.colFieldName)
     output
   }
 

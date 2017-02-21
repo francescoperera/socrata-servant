@@ -7,18 +7,329 @@
 		revision="1.0"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170220121653"/>
+		date="20170221125413"/>
 	<dependencies>
+		<module organisation="com.github.seratch" name="awscala_2.12">
+			<revision name="0.5.9" status="release" pubdate="20161123183130" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/seratch/awscala" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="21">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4750" time="0" location="/Users/francescoperera/.ivy2/cache/com.github.seratch/awscala_2.12/ivy-0.5.9.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/github/seratch/awscala_2.12/0.5.9/awscala_2.12-0.5.9.pom"/>
+				<caller organisation="default" name="socrata-servant$sources_2.12" conf="test, compile, runtime" rev="0.5.9" rev-constraint-default="0.5.9" rev-constraint-dynamic="0.5.9" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="awscala_2.12" type="jar" ext="jar" status="no" details="" size="733493" time="0" location="/Users/francescoperera/.ivy2/cache/com.github.seratch/awscala_2.12/jars/awscala_2.12-0.5.9.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/github/seratch/awscala_2.12/0.5.9/awscala_2.12-0.5.9.jar"/>
+					</artifact>
+					<artifact name="awscala_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="71119" time="12258" location="/Users/francescoperera/.ivy2/cache/com.github.seratch/awscala_2.12/srcs/awscala_2.12-0.5.9-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/github/seratch/awscala_2.12/0.5.9/awscala_2.12-0.5.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.joda" name="joda-convert">
+			<revision name="1.8.1" status="release" pubdate="20151002065804" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-convert/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="42">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6308" time="0" location="/Users/francescoperera/.ivy2/cache/org.joda/joda-convert/ivy-1.8.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/joda/joda-convert/1.8.1/joda-convert-1.8.1.pom"/>
+				<caller organisation="default" name="socrata-servant$sources_2.12" conf="test, compile, runtime" rev="1.8.1" rev-constraint-default="1.8.1" rev-constraint-dynamic="1.8.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="joda-convert" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="45686" time="14495" location="/Users/francescoperera/.ivy2/cache/org.joda/joda-convert/srcs/joda-convert-1.8.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/joda/joda-convert/1.8.1/joda-convert-1.8.1-sources.jar"/>
+					</artifact>
+					<artifact name="joda-convert" type="jar" ext="jar" status="no" details="" size="111521" time="0" location="/Users/francescoperera/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.8.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/joda/joda-convert/1.8.1/joda-convert-1.8.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.9.6" status="release" pubdate="20161110160929" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="41">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6575" time="0" location="/Users/francescoperera/.ivy2/cache/joda-time/joda-time/ivy-2.9.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/joda-time/joda-time/2.9.6/joda-time-2.9.6.pom"/>
+				<caller organisation="default" name="socrata-servant$sources_2.12" conf="test, compile, runtime" rev="2.9.6" rev-constraint-default="2.9.6" rev-constraint-dynamic="2.9.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="632283" time="0" location="/Users/francescoperera/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.6.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/joda-time/joda-time/2.9.6/joda-time-2.9.6.jar"/>
+					</artifact>
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="777466" time="16061" location="/Users/francescoperera/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.9.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/joda-time/joda-time/2.9.6/joda-time-2.9.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-simpledb">
+			<revision name="1.10.77" status="release" pubdate="20160510193210" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="40">
+				<metadata-artifact status="no" details="" size="4556" time="0" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-simpledb/ivy-1.10.77.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-simpledb/1.10.77/aws-java-sdk-simpledb-1.10.77.pom"/>
+				<caller organisation="default" name="socrata-servant$sources_2.12" conf="test, compile, runtime" rev="1.10.77" rev-constraint-default="1.10.77" rev-constraint-dynamic="1.10.77" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-simpledb" type="jar" ext="jar" status="no" details="" size="130001" time="0" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-simpledb/jars/aws-java-sdk-simpledb-1.10.77.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-simpledb/1.10.77/aws-java-sdk-simpledb-1.10.77.jar"/>
+					</artifact>
+					<artifact name="aws-java-sdk-simpledb" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="132721" time="15157" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-simpledb/srcs/aws-java-sdk-simpledb-1.10.77-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-simpledb/1.10.77/aws-java-sdk-simpledb-1.10.77-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-dynamodb">
+			<revision name="1.10.77" status="release" pubdate="20160510193204" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="39">
+				<metadata-artifact status="no" details="" size="4924" time="0" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-dynamodb/ivy-1.10.77.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-dynamodb/1.10.77/aws-java-sdk-dynamodb-1.10.77.pom"/>
+				<caller organisation="default" name="socrata-servant$sources_2.12" conf="test, compile, runtime" rev="1.10.77" rev-constraint-default="1.10.77" rev-constraint-dynamic="1.10.77" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-dynamodb" type="jar" ext="jar" status="no" details="" size="1205831" time="0" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-dynamodb/jars/aws-java-sdk-dynamodb-1.10.77.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-dynamodb/1.10.77/aws-java-sdk-dynamodb-1.10.77.jar"/>
+					</artifact>
+					<artifact name="aws-java-sdk-dynamodb" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1200773" time="16596" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-dynamodb/srcs/aws-java-sdk-dynamodb-1.10.77-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-dynamodb/1.10.77/aws-java-sdk-dynamodb-1.10.77-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-redshift">
+			<revision name="1.10.77" status="release" pubdate="20160510194212" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="38">
+				<metadata-artifact status="no" details="" size="4556" time="0" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-redshift/ivy-1.10.77.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-redshift/1.10.77/aws-java-sdk-redshift-1.10.77.pom"/>
+				<caller organisation="default" name="socrata-servant$sources_2.12" conf="test, compile, runtime" rev="1.10.77" rev-constraint-default="1.10.77" rev-constraint-dynamic="1.10.77" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-redshift" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="697124" time="12730" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-redshift/srcs/aws-java-sdk-redshift-1.10.77-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-redshift/1.10.77/aws-java-sdk-redshift-1.10.77-sources.jar"/>
+					</artifact>
+					<artifact name="aws-java-sdk-redshift" type="jar" ext="jar" status="no" details="" size="752508" time="0" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-redshift/jars/aws-java-sdk-redshift-1.10.77.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-redshift/1.10.77/aws-java-sdk-redshift-1.10.77.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-emr">
+			<revision name="1.10.77" status="release" pubdate="20160510194327" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="37">
+				<metadata-artifact status="no" details="" size="4550" time="0" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-emr/ivy-1.10.77.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-emr/1.10.77/aws-java-sdk-emr-1.10.77.pom"/>
+				<caller organisation="default" name="socrata-servant$sources_2.12" conf="test, compile, runtime" rev="1.10.77" rev-constraint-default="1.10.77" rev-constraint-dynamic="1.10.77" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-emr" type="jar" ext="jar" status="no" details="" size="604147" time="0" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-emr/jars/aws-java-sdk-emr-1.10.77.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-emr/1.10.77/aws-java-sdk-emr-1.10.77.jar"/>
+					</artifact>
+					<artifact name="aws-java-sdk-emr" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="531255" time="10770" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-emr/srcs/aws-java-sdk-emr-1.10.77-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-emr/1.10.77/aws-java-sdk-emr-1.10.77-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-sqs">
+			<revision name="1.10.77" status="release" pubdate="20160510193049" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="36">
+				<metadata-artifact status="no" details="" size="4545" time="0" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-sqs/ivy-1.10.77.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-sqs/1.10.77/aws-java-sdk-sqs-1.10.77.pom"/>
+				<caller organisation="default" name="socrata-servant$sources_2.12" conf="test, compile, runtime" rev="1.10.77" rev-constraint-default="1.10.77" rev-constraint-dynamic="1.10.77" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-sqs" type="jar" ext="jar" status="no" details="" size="327738" time="0" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-sqs/jars/aws-java-sdk-sqs-1.10.77.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-sqs/1.10.77/aws-java-sdk-sqs-1.10.77.jar"/>
+					</artifact>
+					<artifact name="aws-java-sdk-sqs" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="299422" time="9292" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-sqs/srcs/aws-java-sdk-sqs-1.10.77-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-sqs/1.10.77/aws-java-sdk-sqs-1.10.77-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-s3">
+			<revision name="1.10.77" status="release" pubdate="20160510193830" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="34">
+				<metadata-artifact status="no" details="" size="4694" time="0" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-s3/ivy-1.10.77.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-s3/1.10.77/aws-java-sdk-s3-1.10.77.pom"/>
+				<caller organisation="default" name="socrata-servant$sources_2.12" conf="test, compile, runtime" rev="1.10.77" rev-constraint-default="1.10.77" rev-constraint-dynamic="1.10.77" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-s3" type="jar" ext="jar" status="no" details="" size="639026" time="0" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-s3/jars/aws-java-sdk-s3-1.10.77.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-s3/1.10.77/aws-java-sdk-s3-1.10.77.jar"/>
+					</artifact>
+					<artifact name="aws-java-sdk-s3" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="657233" time="9289" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-s3/srcs/aws-java-sdk-s3-1.10.77-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-s3/1.10.77/aws-java-sdk-s3-1.10.77-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-kms">
+			<revision name="1.10.77" status="release" pubdate="20160510194334" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="35">
+				<metadata-artifact status="no" details="" size="4541" time="0" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-kms/ivy-1.10.77.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-kms/1.10.77/aws-java-sdk-kms-1.10.77.pom"/>
+				<caller organisation="default" name="socrata-servant$sources_2.12" conf="test, compile, runtime" rev="1.10.77" rev-constraint-default="1.10.77" rev-constraint-dynamic="1.10.77" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-kms" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="341154" time="9034" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-kms/srcs/aws-java-sdk-kms-1.10.77-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-kms/1.10.77/aws-java-sdk-kms-1.10.77-sources.jar"/>
+					</artifact>
+					<artifact name="aws-java-sdk-kms" type="jar" ext="jar" status="no" details="" size="358840" time="0" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-kms/jars/aws-java-sdk-kms-1.10.77.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-kms/1.10.77/aws-java-sdk-kms-1.10.77.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-ec2">
+			<revision name="1.10.77" status="release" pubdate="20160510194624" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="33">
+				<metadata-artifact status="no" details="" size="4536" time="0" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-ec2/ivy-1.10.77.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-ec2/1.10.77/aws-java-sdk-ec2-1.10.77.pom"/>
+				<caller organisation="default" name="socrata-servant$sources_2.12" conf="test, compile, runtime" rev="1.10.77" rev-constraint-default="1.10.77" rev-constraint-dynamic="1.10.77" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-ec2" type="jar" ext="jar" status="no" details="" size="3241227" time="0" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-ec2/jars/aws-java-sdk-ec2-1.10.77.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-ec2/1.10.77/aws-java-sdk-ec2-1.10.77.jar"/>
+					</artifact>
+					<artifact name="aws-java-sdk-ec2" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="2880433" time="11419" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-ec2/srcs/aws-java-sdk-ec2-1.10.77-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-ec2/1.10.77/aws-java-sdk-ec2-1.10.77-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-sts">
+			<revision name="1.10.77" status="release" pubdate="20160510194049" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="32">
+				<metadata-artifact status="no" details="" size="4541" time="0" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-sts/ivy-1.10.77.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-sts/1.10.77/aws-java-sdk-sts-1.10.77.pom"/>
+				<caller organisation="default" name="socrata-servant$sources_2.12" conf="test, compile, runtime" rev="1.10.77" rev-constraint-default="1.10.77" rev-constraint-dynamic="1.10.77" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-sts" type="jar" ext="jar" status="no" details="" size="167943" time="0" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-sts/jars/aws-java-sdk-sts-1.10.77.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-sts/1.10.77/aws-java-sdk-sts-1.10.77.jar"/>
+					</artifact>
+					<artifact name="aws-java-sdk-sts" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="197197" time="10444" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-sts/srcs/aws-java-sdk-sts-1.10.77-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-sts/1.10.77/aws-java-sdk-sts-1.10.77-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-iam">
+			<revision name="1.10.77" status="release" pubdate="20160510193709" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
+				<metadata-artifact status="no" details="" size="4557" time="0" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-iam/ivy-1.10.77.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-iam/1.10.77/aws-java-sdk-iam-1.10.77.pom"/>
+				<caller organisation="default" name="socrata-servant$sources_2.12" conf="test, compile, runtime" rev="1.10.77" rev-constraint-default="1.10.77" rev-constraint-dynamic="1.10.77" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-iam" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1171623" time="16209" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-iam/srcs/aws-java-sdk-iam-1.10.77-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-iam/1.10.77/aws-java-sdk-iam-1.10.77-sources.jar"/>
+					</artifact>
+					<artifact name="aws-java-sdk-iam" type="jar" ext="jar" status="no" details="" size="1261250" time="0" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-iam/jars/aws-java-sdk-iam-1.10.77.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-iam/1.10.77/aws-java-sdk-iam-1.10.77.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-core">
+			<revision name="1.10.77" status="release" pubdate="20160510194520" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="23">
+				<metadata-artifact status="no" details="" size="6202" time="0" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-core/ivy-1.10.77.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-core/1.10.77/aws-java-sdk-core-1.10.77.pom"/>
+				<caller organisation="default" name="socrata-servant$sources_2.12" conf="test, compile, runtime" rev="1.10.77" rev-constraint-default="1.10.77" rev-constraint-dynamic="1.10.77" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="566442" time="15256" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-core/srcs/aws-java-sdk-core-1.10.77-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-core/1.10.77/aws-java-sdk-core-1.10.77-sources.jar"/>
+					</artifact>
+					<artifact name="aws-java-sdk-core" type="jar" ext="jar" status="no" details="" size="611530" time="0" location="/Users/francescoperera/.ivy2/cache/com.amazonaws/aws-java-sdk-core/jars/aws-java-sdk-core-1.10.77.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-core/1.10.77/aws-java-sdk-core-1.10.77.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.dataformat" name="jackson-dataformat-cbor">
+			<revision name="2.5.3" status="release" pubdate="20150424212800" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonForCbor" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="31">
+				<metadata-artifact status="no" details="" size="7178" time="0" location="/Users/francescoperera/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/ivy-2.5.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.5.3/jackson-dataformat-cbor-2.5.3.pom"/>
+				<caller organisation="default" name="socrata-servant$sources_2.12" conf="test, compile, runtime" rev="2.5.3" rev-constraint-default="2.5.3" rev-constraint-dynamic="2.5.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-dataformat-cbor" type="jar" ext="jar" status="successful" details="" size="46519" time="5095" location="/Users/francescoperera/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/jars/jackson-dataformat-cbor-2.5.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.5.3/jackson-dataformat-cbor-2.5.3.jar"/>
+					</artifact>
+					<artifact name="jackson-dataformat-cbor" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="37112" time="9390" location="/Users/francescoperera/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/srcs/jackson-dataformat-cbor-2.5.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.5.3/jackson-dataformat-cbor-2.5.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.5.3" status="release" pubdate="20150424132500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="28">
+				<metadata-artifact status="no" details="" size="8466" time="0" location="/Users/francescoperera/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.5.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.5.3/jackson-databind-2.5.3.pom"/>
+				<caller organisation="default" name="socrata-servant$sources_2.12" conf="test, compile, runtime" rev="2.5.3" rev-constraint-default="2.5.3" rev-constraint-dynamic="2.5.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="jar" ext="jar" status="successful" details="" size="1143162" time="11762" location="/Users/francescoperera/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/jars/jackson-databind-2.5.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.5.3/jackson-databind-2.5.3.jar"/>
+					</artifact>
+					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="824134" time="11936" location="/Users/francescoperera/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.5.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.5.3/jackson-databind-2.5.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.5.3" status="release" pubdate="20150424131600" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="30">
+				<metadata-artifact status="no" details="" size="6623" time="0" location="/Users/francescoperera/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.5.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3.pom"/>
+				<caller organisation="default" name="socrata-servant$sources_2.12" conf="test, compile, runtime" rev="2.5.3" rev-constraint-default="2.5.3" rev-constraint-dynamic="2.5.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-core" type="jar" ext="jar" status="successful" details="" size="229998" time="8726" location="/Users/francescoperera/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/jars/jackson-core-2.5.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3.jar"/>
+					</artifact>
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="241161" time="3717" location="/Users/francescoperera/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.5.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.5.0" status="release" pubdate="20150101183200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="29">
+				<metadata-artifact status="no" details="" size="6175" time="0" location="/Users/francescoperera/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.5.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.pom"/>
+				<caller organisation="default" name="socrata-servant$sources_2.12" conf="test, compile, runtime" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="44578" time="12864" location="/Users/francescoperera/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/srcs/jackson-annotations-2.5.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0-sources.jar"/>
+					</artifact>
+					<artifact name="jackson-annotations" type="jar" ext="jar" status="successful" details="" size="39815" time="14975" location="/Users/francescoperera/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/jars/jackson-annotations-2.5.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.3.6" status="release" pubdate="20141102084600" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="25">
+				<metadata-artifact status="no" details="" size="10478" time="0" location="/Users/francescoperera/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.3.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.pom"/>
+				<caller organisation="default" name="socrata-servant$sources_2.12" conf="test, compile, runtime" rev="4.3.6" rev-constraint-default="4.3.6" rev-constraint-dynamic="4.3.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="httpclient" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="656337" time="14359" location="/Users/francescoperera/.ivy2/cache/org.apache.httpcomponents/httpclient/srcs/httpclient-4.3.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6-sources.jar"/>
+					</artifact>
+					<artifact name="httpclient" type="jar" ext="jar" status="no" details="" size="592008" time="0" location="/Users/francescoperera/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.3.6.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.6" status="release" pubdate="20111202213826" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/codec/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="27">
+				<metadata-artifact status="no" details="" size="7561" time="0" location="/Users/francescoperera/.ivy2/cache/commons-codec/commons-codec/ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom"/>
+				<caller organisation="default" name="socrata-servant$sources_2.12" conf="test, compile, runtime" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="232771" time="0" location="/Users/francescoperera/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar"/>
+					</artifact>
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="243982" time="0" location="/Users/francescoperera/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-codec/commons-codec/1.6/commons-codec-1.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.3.3" status="release" pubdate="20141018075100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="26">
+				<metadata-artifact status="no" details="" size="7623" time="0" location="/Users/francescoperera/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.3.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3.pom"/>
+				<caller organisation="default" name="socrata-servant$sources_2.12" conf="test, compile, runtime" rev="4.3.3" rev-constraint-default="4.3.3" rev-constraint-dynamic="4.3.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="httpcore" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="377206" time="13174" location="/Users/francescoperera/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.3.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3-sources.jar"/>
+					</artifact>
+					<artifact name="httpcore" type="jar" ext="jar" status="no" details="" size="282793" time="0" location="/Users/francescoperera/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.3.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.1.3" status="release" pubdate="20130516160523" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="24">
+				<metadata-artifact status="no" details="" size="10109" time="0" location="/Users/francescoperera/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom"/>
+				<caller organisation="default" name="socrata-servant$sources_2.12" conf="test, compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="62050" time="0" location="/Users/francescoperera/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar"/>
+					</artifact>
+					<artifact name="commons-logging" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="73915" time="14470" location="/Users/francescoperera/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.1.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="com.typesafe.scala-logging" name="scala-logging_2.12">
 			<revision name="3.5.0" status="release" pubdate="20161102052732" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/scala-logging" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="18">
 				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3228" time="0" location="/Users/francescoperera/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/ivy-3.5.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/scala-logging/scala-logging_2.12/3.5.0/scala-logging_2.12-3.5.0.pom"/>
 				<caller organisation="default" name="socrata-servant$sources_2.12" conf="test, compile, runtime" rev="3.5.0" rev-constraint-default="3.5.0" rev-constraint-dynamic="3.5.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="scala-logging_2.12" type="jar" ext="jar" status="successful" details="" size="25497" time="530" location="/Users/francescoperera/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/jars/scala-logging_2.12-3.5.0.jar">
+					<artifact name="scala-logging_2.12" type="jar" ext="jar" status="no" details="" size="25497" time="0" location="/Users/francescoperera/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/jars/scala-logging_2.12-3.5.0.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/scala-logging/scala-logging_2.12/3.5.0/scala-logging_2.12-3.5.0.jar"/>
 					</artifact>
-					<artifact name="scala-logging_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="8626" time="693" location="/Users/francescoperera/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/srcs/scala-logging_2.12-3.5.0-sources.jar">
+					<artifact name="scala-logging_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8626" time="0" location="/Users/francescoperera/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/srcs/scala-logging_2.12-3.5.0-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/scala-logging/scala-logging_2.12/3.5.0/scala-logging_2.12-3.5.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -72,11 +383,11 @@
 				<metadata-artifact status="no" details="" size="2890" time="0" location="/Users/francescoperera/.ivy2/cache/org.scalaj/scalaj-http_2.12/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalaj/scalaj-http_2.12/2.3.0/scalaj-http_2.12-2.3.0.pom"/>
 				<caller organisation="default" name="socrata-servant$sources_2.12" conf="test, compile, runtime" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="scalaj-http_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13316" time="0" location="/Users/francescoperera/.ivy2/cache/org.scalaj/scalaj-http_2.12/srcs/scalaj-http_2.12-2.3.0-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalaj/scalaj-http_2.12/2.3.0/scalaj-http_2.12-2.3.0-sources.jar"/>
-					</artifact>
 					<artifact name="scalaj-http_2.12" type="jar" ext="jar" status="no" details="" size="108412" time="0" location="/Users/francescoperera/.ivy2/cache/org.scalaj/scalaj-http_2.12/jars/scalaj-http_2.12-2.3.0.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalaj/scalaj-http_2.12/2.3.0/scalaj-http_2.12-2.3.0.jar"/>
+					</artifact>
+					<artifact name="scalaj-http_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13316" time="0" location="/Users/francescoperera/.ivy2/cache/org.scalaj/scalaj-http_2.12/srcs/scalaj-http_2.12-2.3.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalaj/scalaj-http_2.12/2.3.0/scalaj-http_2.12-2.3.0-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
