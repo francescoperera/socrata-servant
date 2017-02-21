@@ -1,3 +1,5 @@
+import java.io.{File, PrintWriter}
+
 import com.typesafe.scalalogging.LazyLogging
 
 
@@ -23,6 +25,13 @@ object SocrataServant extends App with LazyLogging with JsonWorkHorse {
     val output = jsonify(fsd)
     println(output.take(2))
     output
+  }
+
+
+  def writeToFile(l:Vector[String],cfn:String) = {
+    val pw = new PrintWriter(new File(s"${cfn}_socrata.json" ))
+    l.foreach(s => pw.write(s + "\n"))
+    pw.close()
   }
 
   //TODO: Follow SocrataExplorer code and write to file and push to S3
