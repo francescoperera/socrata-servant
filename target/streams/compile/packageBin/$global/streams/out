@@ -1,0 +1,31 @@
+[0m[[0minfo[0m] [0mPackaging /Users/francescoperera/Developer/datalogue/socrata-servant/target/scala-2.12/socrata-servant_2.12-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	MetaDataExplorer$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/francescoperera/Developer/datalogue/socrata-servant/target/scala-2.12/classes/MetaDataExplorer$.class[0m
+[0m[[0mdebug[0m] [0m	SocrataParams.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/francescoperera/Developer/datalogue/socrata-servant/target/scala-2.12/classes/SocrataParams.class[0m
+[0m[[0mdebug[0m] [0m	DatasetExplorer$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/francescoperera/Developer/datalogue/socrata-servant/target/scala-2.12/classes/DatasetExplorer$.class[0m
+[0m[[0mdebug[0m] [0m	DatasetExplorer.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/francescoperera/Developer/datalogue/socrata-servant/target/scala-2.12/classes/DatasetExplorer.class[0m
+[0m[[0mdebug[0m] [0m	SocrataParams$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/francescoperera/Developer/datalogue/socrata-servant/target/scala-2.12/classes/SocrataParams$.class[0m
+[0m[[0mdebug[0m] [0m	DatasetTools$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/francescoperera/Developer/datalogue/socrata-servant/target/scala-2.12/classes/DatasetTools$.class[0m
+[0m[[0mdebug[0m] [0m	MetaData$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/francescoperera/Developer/datalogue/socrata-servant/target/scala-2.12/classes/MetaData$.class[0m
+[0m[[0mdebug[0m] [0m	SocrataServant.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/francescoperera/Developer/datalogue/socrata-servant/target/scala-2.12/classes/SocrataServant.class[0m
+[0m[[0mdebug[0m] [0m	DatasetTools.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/francescoperera/Developer/datalogue/socrata-servant/target/scala-2.12/classes/DatasetTools.class[0m
+[0m[[0mdebug[0m] [0m	MetaDataExplorer.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/francescoperera/Developer/datalogue/socrata-servant/target/scala-2.12/classes/MetaDataExplorer.class[0m
+[0m[[0mdebug[0m] [0m	MetaData.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/francescoperera/Developer/datalogue/socrata-servant/target/scala-2.12/classes/MetaData.class[0m
+[0m[[0mdebug[0m] [0m	SocrataServant$delayedInit$body.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/francescoperera/Developer/datalogue/socrata-servant/target/scala-2.12/classes/SocrataServant$delayedInit$body.class[0m
+[0m[[0mdebug[0m] [0m	SocrataServant$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/francescoperera/Developer/datalogue/socrata-servant/target/scala-2.12/classes/SocrataServant$.class[0m
+[0m[[0mdebug[0m] [0m	JsonWorkHorse.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/francescoperera/Developer/datalogue/socrata-servant/target/scala-2.12/classes/JsonWorkHorse.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m
