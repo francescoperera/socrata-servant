@@ -4,8 +4,8 @@ required input is a valid Socrata column_field_name. SBT is required
 to use socrata-servant.
 
 ## Required
-#### SBT
-``` download SBT from here <http://www.scala-sbt.org/> ```
+#### sbt
+download SBT from here <http://www.scala-sbt.org/>
 
 ## Compile
 ```sbt compile```
