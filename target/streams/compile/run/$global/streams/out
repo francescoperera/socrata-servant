@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mRunning SocrataServant location[0m
+[0m[[0minfo[0m] [0mRunning SocrataServant fullname[0m
 [0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
 [0m[[0mdebug[0m] [0m  Classpath:[0m
 [0m[[0mdebug[0m] [0m	/Users/francescoperera/Developer/datalogue/socrata-servant/target/scala-2.12/classes[0m
@@ -49,5 +49,9 @@
 [0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
 [0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
 [0m[[0mdebug[0m] [0mNot interrupting system thread Thread[Keep-Alive-Timer,8,system][0m
+[0m[[0mdebug[0m] [0mInterrupting thread Thread-1[0m
+[0m[[0mdebug[0m] [0m	Interrupted Thread-1[0m
+[0m[[0mdebug[0m] [0mInterrupting thread java-sdk-http-connection-reaper[0m
+[0m[[0mdebug[0m] [0m	Interrupted java-sdk-http-connection-reaper[0m
 [0m[[0mdebug[0m] [0mSandboxed run complete..[0m
 [0m[[0mdebug[0m] [0mExited with code 0[0m

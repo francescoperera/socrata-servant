@@ -24,7 +24,7 @@ object SocrataServant extends App with LazyLogging with JsonWorkHorse {
     logger.info(s"Servant got data from ${fsd.size} datasets")
     val output = jsonify(fsd)
     output.take(2).foreach(println)
-    writeToFile(output.take(5),param.colFieldName)
+    saveToS3(output,param.colFieldName)
     output
   }
 
@@ -35,8 +35,15 @@ object SocrataServant extends App with LazyLogging with JsonWorkHorse {
     pw.close()
   }
 
-  //TODO: Follow SocrataExplorer code and write to file and push to S3
-  //TODO: Look at Quip and gather data for Bloomberg classes
+  def saveToS3(l:Vector[String],cfn:String) = {
+    val f = new File(s"${cfn}_socrata.json" )
+    val pw = new PrintWriter(f)
+    l.foreach(s => pw.write( s + "\n"))
+    pw.close()
+    S3Client.saveFile(f)
+    println(f.getName)
+    println(f.length())
+  }
   //TODO: Rewrite this in Rust
 
 }
