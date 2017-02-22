@@ -6,22 +6,22 @@ import io.circe.Json
 
 import scalaj.http.{Http, HttpOptions, HttpResponse}
 
-case class SocrataParams(colFieldName:String)
+case class SocrataHttpParams(colFieldName:String,limit:Int,offset:Int)
 case class MetaData(cfn:List[Json],pl:Json)
-case class DatasetTools(url:Option[String],colFieldName:String)
+case class DatasetHttpParams(url:Option[String],colFieldName:String)
 
 object MetaDataExplorer extends LazyLogging with JsonWorkHorse{
 
   private val token = "GPGuyRELzwEXtRJbJDib89U59"
-  private val limit = 10000
 
   /**
     * Takes type SocrataParams, reads the columns and sends an http request to Socrata with the given cols.
     * @param sp - SocrataParams
     * @return Http Response in String format
     */
-  def sendRequest(sp:SocrataParams):HttpResponse[String] =
-    Http(s"http://api.us.socrata.com/api/catalog/v1?only=datasets&q=${sp.colFieldName}&limit=$limit").header("X-App-Token",token).asString
+  def sendRequest(sp:SocrataHttpParams):HttpResponse[String] =
+    Http(s"http://api.us.socrata.com/api/catalog/v1?only=datasets&q=${sp.colFieldName}&offset=${sp.offset}&limit=${sp.limit}")
+      .header("X-App-Token",token).asString
 
   /**
     * Takes the body of a Http Response and returns the content under the key results
@@ -39,11 +39,11 @@ object MetaDataExplorer extends LazyLogging with JsonWorkHorse{
     * @param col - column field name
     * @return - Vector of DatasetTools(url,column field name)
     */
-  def checkCol(md:Option[Vector[Json]], col:String): Vector[DatasetTools]= {
+  def checkCol(md:Option[Vector[Json]], col:String): Vector[DatasetHttpParams]= {
     val fmd = md.get.map(obj => MetaData(obj.\\("resource").map(_.\\("columns_field_name")).head,obj.\\("permalink").head)) //fmd = filtered md
     fmd.map{ meta => meta.cfn.head.asArray.get.map(_.asString.get).contains(col) match {
-      case true => DatasetTools(meta.pl.asString,col)
-      case false => DatasetTools(None,col)
+      case true => DatasetHttpParams(meta.pl.asString,col)
+      case false => DatasetHttpParams(None,col)
     }}
   }
 }
@@ -62,7 +62,7 @@ object DatasetExplorer extends LazyLogging{
     * @param dst - DatasetTools( contains dataset url and column field name)
     * @return - HttpResponse in String format
     */
-  def getDataWithCol(dst:DatasetTools):Option[String] = {
+  def getDataWithCol(dst:DatasetHttpParams):Option[String] = {
     val ppl = parsePermaLink(dst.url.get) //parsed permalink = ppl
     val select = "$select"
     val url = s"$ppl.json?$select=${dst.colFieldName.toLowerCase}"
