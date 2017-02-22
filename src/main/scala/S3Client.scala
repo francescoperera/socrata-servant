@@ -4,10 +4,8 @@ import awscala.s3.{Bucket, S3}
 
 object S3Client {
 
-//  private val accessKeyId = sys.env.getOrElse("S3_KEY_ID", "AKIAJZUC55ZOLZSRM7RQ")
-//  private val secretAccessKey = sys.env.getOrElse("S3_KEY_SECRET", "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")
-  private val accessKeyId = sys.env.getOrElse("S3_KEY_ID", "AKIAJMVPH47YHSLXVXTA")
-  private val secretAccessKey = sys.env.getOrElse("S3_KEY_SECRET", "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")
+  private val accessKeyId = sys.env.getOrElse("S3_KEY_ID", "AKIAJZUC55ZOLZSRM7RQ")
+  private val secretAccessKey = sys.env.getOrElse("S3_KEY_SECRET", "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")
 
   implicit val region = awscala.Region.US_EAST_1
 
@@ -23,11 +21,9 @@ object S3Client {
   object Buckets {
     val dtlData = "dtl-data"
   }
-
   object Path{
     val dumpFolder = "PII/dump/"
   }
-
 }
 
 

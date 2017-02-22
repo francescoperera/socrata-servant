@@ -13,7 +13,7 @@ case class DatasetTools(url:Option[String],colFieldName:String)
 object MetaDataExplorer extends LazyLogging with JsonWorkHorse{
 
   private val token = "GPGuyRELzwEXtRJbJDib89U59"
-  private val limit = 10
+  private val limit = 10000
 
   /**
     * Takes type SocrataParams, reads the columns and sends an http request to Socrata with the given cols.

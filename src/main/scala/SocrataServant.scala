@@ -11,7 +11,6 @@ object SocrataServant extends App with LazyLogging with JsonWorkHorse {
     case _ => logger.error("Multiple arguments were detected. Please rerun applicaiton with one argument")
   }
 
-
   def fetchData(str:String) = {
     val param = SocrataParams(str.toLowerCase.trim)
     val req = MetaDataExplorer.sendRequest(param)
@@ -23,11 +22,10 @@ object SocrataServant extends App with LazyLogging with JsonWorkHorse {
     val fsd = sd.filter(_.isDefined) // fsd = filtered source data
     logger.info(s"Servant got data from ${fsd.size} datasets")
     val output = jsonify(fsd)
-    output.take(2).foreach(println)
+    //output.take(2).foreach(println)
     saveToS3(output,param.colFieldName)
     output
   }
-
 
   def writeToFile(l:Vector[String],cfn:String) = {
     val pw = new PrintWriter(new File(s"${cfn}_socrata.json" ))
@@ -35,15 +33,12 @@ object SocrataServant extends App with LazyLogging with JsonWorkHorse {
     pw.close()
   }
 
-  def saveToS3(l:Vector[String],cfn:String) = {
+  def saveToS3(l:Vector[Vector[String]],cfn:String) = {
     val f = new File(s"${cfn}_socrata.json" )
     val pw = new PrintWriter(f)
-    l.foreach(s => pw.write( s + "\n"))
+    l.flatten.foreach(s => pw.write( s + "\n"))
     pw.close()
     S3Client.saveFile(f)
-    println(f.getName)
-    println(f.length())
+    logger.info(s"saved ${f.getName} to S3, size : ${f.length()/1000} KB")
   }
-  //TODO: Rewrite this in Rust
-
 }

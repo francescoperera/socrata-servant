@@ -13,4 +13,27 @@ download SBT from here <http://www.scala-sbt.org/>
 ##Run
 ```sbt "run column_field_name"```
 
+##Output
+A file named column_field_name_socrata.json will be saved to Datalogue's S3 bucket.
+
+###Example
+
+``` sbt "run fullname"```
+
+The file will be saved to S3 as fullname_socrata.json. The file content will be new - line delimited json.
+
+
+```
+{"fullname":"Sig Rogich"}
+{"fullname":"Justice Myron E. Leavitt"}
+{"fullname":"Brian and Teri Cram"}
+{"fullname":"Mario C. and JoAnne Monaco"}
+{"fullname":"Jack Lund Schofield"}
+{"fullname":"Kay Carl"}
+{"fullname":"Marshall C. Darnell"}
+{"fullname":"Neil C. Twitchell"}
+
+```
+
+
 
