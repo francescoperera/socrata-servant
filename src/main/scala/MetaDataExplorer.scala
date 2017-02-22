@@ -6,9 +6,9 @@ import io.circe.Json
 
 import scalaj.http.{Http, HttpOptions, HttpResponse}
 
-case class SocrataHttpParams(colFieldName:String,limit:Int,offset:Int)
-case class MetaData(cfn:List[Json],pl:Json)
-case class DatasetHttpParams(url:Option[String],colFieldName:String)
+case class SocrataHttpParams(colFieldName:String,limit:Int,offset:Int) /** contains all params need for a Socrata HTTP  Request */
+case class MetaData(cfn:List[Json],pl:Json) /** contains a list of column field name and permalink from metadata. */
+case class DatasetHttpParams(url:Option[String],colFieldName:String) /** contains all params needed to get dataset through HTTP */
 
 object MetaDataExplorer extends LazyLogging with JsonWorkHorse{
 

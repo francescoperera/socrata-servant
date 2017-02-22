@@ -7,5 +7,4 @@ trait JsonWorkHorse {
     * @return Json version of str.
     */
   def toJson(str: String): Json = parser.parse(str).fold(_ => ???, json => json)
-
 }
