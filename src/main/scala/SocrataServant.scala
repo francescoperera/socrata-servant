@@ -22,7 +22,6 @@ object SocrataServant extends App with LazyLogging with JsonWorkHorse {
     val fsd = sd.filter(_.isDefined) // fsd = filtered source data
     logger.info(s"Servant got data from ${fsd.size} datasets")
     val output = jsonify(fsd)
-    //output.take(2).foreach(println)
     saveToS3(output,param.colFieldName)
     output
   }
