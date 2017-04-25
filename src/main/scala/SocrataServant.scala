@@ -11,9 +11,9 @@ import scala.collection.mutable
 
 object SocrataServant extends LazyLogging with  JsonWorkHorse {
 
-  private val limit = 10000
+  private val limit = 10 //10000
   private var offset = 0
-  private val maxOffset = 20000
+  private val maxOffset = 10//20000
 
   def main(args:Array[String]) = {
     args.length match {
@@ -39,11 +39,11 @@ object SocrataServant extends LazyLogging with  JsonWorkHorse {
     val fvhp: Vector[DatasetParams] = ldhp.toVector.flatten // fvhp = filtered vector of DatasetHtpParams
     logger.info(s"Servant found ${fvhp.size} potential datasets that contain the column ${str}")
     val fdt:Vector[DatasetParams] =  fvhp.filter(_.url.isDefined) // fdt = filtered Vector DatasetHttpParams
-    val sd : Vector[NDJSONParams] = fdt.map( dt => DatasetExplorer.getDataWithCol(dt)) //sd = source data
-    val fsd = sd.filter(_.data.isDefined) // fsd = filtered source data
-    logger.info(s"Servant got data from ${fsd.size} datasets")
-    val output:Vector[Vector[String]] = unwrapVector(fsd)
-    saveToS3(output,str)
+//    val sd : Vector[NDJSONParams] = fdt.map( dt => DatasetExplorer.getDataWithCol(dt)) //sd = source data
+//    val fsd = sd.filter(_.data.isDefined) // fsd = filtered source data
+//    logger.info(s"Servant got data from ${fsd.size} datasets")
+//    val output:Vector[Vector[String]] = unwrapVector(fsd)
+//    saveToS3(output,str)
   }
 
   /**
@@ -59,7 +59,7 @@ object SocrataServant extends LazyLogging with  JsonWorkHorse {
     val param = SocrataHttpParams(str.toLowerCase.trim,limit,offset)
     val req = MetaDataExplorer.sendRequest(param)
     val md = MetaDataExplorer.getStringMetaData(req.body) // md = metadata
-    MetaDataExplorer.checkCol(md,param.colFieldName) //vdt = vector DatasetTools
+    MetaDataExplorer.checkCol(md,param.colFieldName) //vdt = vector DatasetParams
   }
 
   /**
