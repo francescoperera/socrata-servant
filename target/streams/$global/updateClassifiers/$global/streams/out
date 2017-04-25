@@ -8,7 +8,7 @@
 [debug] == resolving dependencies for default#socrata-servant$sources_2.12;1.0 [compile]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.12.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ad47655
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@471efe00
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.1
 [debug] 	found org.scala-lang#scala-library;2.12.1 in sbt-chain
 [debug] 	[2.12.1] org.scala-lang#scala-library;2.12.1
@@ -17,7 +17,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->io.circe#circe-core_2.12;0.7.0-M2 [compile->default(compile)]
 [info] Resolving io.circe#circe-core_2.12;0.7.0-M2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@cb0be68
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6cb7b15e
 [debug] sbt-chain: module revision found in cache: io.circe#circe-core_2.12;0.7.0-M2
 [debug] 	found io.circe#circe-core_2.12;0.7.0-M2 in sbt-chain
 [debug] 	[0.7.0-M2] io.circe#circe-core_2.12;0.7.0-M2
@@ -26,7 +26,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->io.circe#circe-core_2.12;0.7.0-M2 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->io.circe#circe-numbers_2.12;0.7.0-M2 [compile->default(compile)]
 [info] Resolving io.circe#circe-numbers_2.12;0.7.0-M2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a961233
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7589ef02
 [debug] sbt-chain: module revision found in cache: io.circe#circe-numbers_2.12;0.7.0-M2
 [debug] 	found io.circe#circe-numbers_2.12;0.7.0-M2 in sbt-chain
 [debug] 	[0.7.0-M2] io.circe#circe-numbers_2.12;0.7.0-M2
@@ -35,7 +35,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->io.circe#circe-numbers_2.12;0.7.0-M2 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.typelevel#cats-core_2.12;0.8.1 [compile->default(compile)]
 [info] Resolving org.typelevel#cats-core_2.12;0.8.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14ef088
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78731f34
 [debug] sbt-chain: module revision found in cache: org.typelevel#cats-core_2.12;0.8.1
 [debug] 	found org.typelevel#cats-core_2.12;0.8.1 in sbt-chain
 [debug] 	[0.8.1] org.typelevel#cats-core_2.12;0.8.1
@@ -44,7 +44,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.typelevel#cats-core_2.12;0.8.1 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.typelevel#cats-macros_2.12;0.8.1 [compile->default(compile)]
 [info] Resolving org.typelevel#cats-macros_2.12;0.8.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@65a2f9be
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38afa41a
 [debug] sbt-chain: module revision found in cache: org.typelevel#cats-macros_2.12;0.8.1
 [debug] 	found org.typelevel#cats-macros_2.12;0.8.1 in sbt-chain
 [debug] 	[0.8.1] org.typelevel#cats-macros_2.12;0.8.1
@@ -53,7 +53,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.typelevel#cats-macros_2.12;0.8.1 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.github.mpilquist#simulacrum_2.12;0.10.0 [compile->default(compile)]
 [info] Resolving com.github.mpilquist#simulacrum_2.12;0.10.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@39505e6d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ab80270
 [debug] sbt-chain: module revision found in cache: com.github.mpilquist#simulacrum_2.12;0.10.0
 [debug] 	found com.github.mpilquist#simulacrum_2.12;0.10.0 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.github.mpilquist#simulacrum_2.12;0.10.0 [compile->runtime]
@@ -61,7 +61,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.github.mpilquist#simulacrum_2.12;0.10.0 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.typelevel#macro-compat_2.12;1.1.1 [compile->default(compile)]
 [info] Resolving org.typelevel#macro-compat_2.12;1.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f29335d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68e4be35
 [debug] sbt-chain: module revision found in cache: org.typelevel#macro-compat_2.12;1.1.1
 [debug] 	found org.typelevel#macro-compat_2.12;1.1.1 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.typelevel#macro-compat_2.12;1.1.1 [compile->runtime]
@@ -69,7 +69,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.typelevel#macro-compat_2.12;1.1.1 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.typelevel#machinist_2.12;0.6.1 [compile->default(compile)]
 [info] Resolving org.typelevel#machinist_2.12;0.6.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a1ecf06
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59f9bd2b
 [debug] sbt-chain: module revision found in cache: org.typelevel#machinist_2.12;0.6.1
 [debug] 	found org.typelevel#machinist_2.12;0.6.1 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.typelevel#machinist_2.12;0.6.1 [compile->runtime]
@@ -77,7 +77,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.typelevel#machinist_2.12;0.6.1 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang#scala-reflect;2.12.0 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.12.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4312a089
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4bd72ca8
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.12.0
 [debug] 	found org.scala-lang#scala-reflect;2.12.0 in sbt-chain
 [debug] 	[2.12.0] org.scala-lang#scala-reflect;2.12.0
@@ -86,7 +86,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang#scala-reflect;2.12.0 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.typelevel#cats-kernel_2.12;0.8.1 [compile->default(compile)]
 [info] Resolving org.typelevel#cats-kernel_2.12;0.8.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c3eb85f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@8a9a865
 [debug] sbt-chain: module revision found in cache: org.typelevel#cats-kernel_2.12;0.8.1
 [debug] 	found org.typelevel#cats-kernel_2.12;0.8.1 in sbt-chain
 [debug] 	[0.8.1] org.typelevel#cats-kernel_2.12;0.8.1
@@ -95,7 +95,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.typelevel#cats-kernel_2.12;0.8.1 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->io.circe#circe-generic_2.12;0.7.0-M2 [compile->default(compile)]
 [info] Resolving io.circe#circe-generic_2.12;0.7.0-M2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@11a773f6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e3f3e5
 [debug] sbt-chain: module revision found in cache: io.circe#circe-generic_2.12;0.7.0-M2
 [debug] 	found io.circe#circe-generic_2.12;0.7.0-M2 in sbt-chain
 [debug] 	[0.7.0-M2] io.circe#circe-generic_2.12;0.7.0-M2
@@ -104,7 +104,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->io.circe#circe-generic_2.12;0.7.0-M2 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.chuusai#shapeless_2.12;2.3.2 [compile->default(compile)]
 [info] Resolving com.chuusai#shapeless_2.12;2.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@694ad319
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36e6e545
 [debug] sbt-chain: module revision found in cache: com.chuusai#shapeless_2.12;2.3.2
 [debug] 	found com.chuusai#shapeless_2.12;2.3.2 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.chuusai#shapeless_2.12;2.3.2 [compile->runtime]
@@ -112,7 +112,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.chuusai#shapeless_2.12;2.3.2 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->io.circe#circe-parser_2.12;0.7.0-M2 [compile->default(compile)]
 [info] Resolving io.circe#circe-parser_2.12;0.7.0-M2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@386fb6fc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42d3797f
 [debug] sbt-chain: module revision found in cache: io.circe#circe-parser_2.12;0.7.0-M2
 [debug] 	found io.circe#circe-parser_2.12;0.7.0-M2 in sbt-chain
 [debug] 	[0.7.0-M2] io.circe#circe-parser_2.12;0.7.0-M2
@@ -121,7 +121,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->io.circe#circe-parser_2.12;0.7.0-M2 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->io.circe#circe-jawn_2.12;0.7.0-M2 [compile->default(compile)]
 [info] Resolving io.circe#circe-jawn_2.12;0.7.0-M2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5cfe60ab
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ce67188
 [debug] sbt-chain: module revision found in cache: io.circe#circe-jawn_2.12;0.7.0-M2
 [debug] 	found io.circe#circe-jawn_2.12;0.7.0-M2 in sbt-chain
 [debug] 	[0.7.0-M2] io.circe#circe-jawn_2.12;0.7.0-M2
@@ -130,7 +130,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->io.circe#circe-jawn_2.12;0.7.0-M2 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.spire-math#jawn-parser_2.12;0.10.4 [compile->default(compile)]
 [info] Resolving org.spire-math#jawn-parser_2.12;0.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@619a8f67
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53ce8491
 [debug] sbt-chain: module revision found in cache: org.spire-math#jawn-parser_2.12;0.10.4
 [debug] 	found org.spire-math#jawn-parser_2.12;0.10.4 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.spire-math#jawn-parser_2.12;0.10.4 [compile->runtime]
@@ -138,7 +138,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.spire-math#jawn-parser_2.12;0.10.4 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->io.circe#circe-java8_2.12;0.7.0-M2 [compile->default(compile)]
 [info] Resolving io.circe#circe-java8_2.12;0.7.0-M2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@300d939a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3a9bda14
 [debug] sbt-chain: module revision found in cache: io.circe#circe-java8_2.12;0.7.0-M2
 [debug] 	found io.circe#circe-java8_2.12;0.7.0-M2 in sbt-chain
 [debug] 	[0.7.0-M2] io.circe#circe-java8_2.12;0.7.0-M2
@@ -147,7 +147,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->io.circe#circe-java8_2.12;0.7.0-M2 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scalaj#scalaj-http_2.12;2.3.0 [compile->default(compile)]
 [info] Resolving org.scalaj#scalaj-http_2.12;2.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1968866c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f4ab098
 [debug] sbt-chain: module revision found in cache: org.scalaj#scalaj-http_2.12;2.3.0
 [debug] 	found org.scalaj#scalaj-http_2.12;2.3.0 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scalaj#scalaj-http_2.12;2.3.0 [compile->runtime]
@@ -155,7 +155,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scalaj#scalaj-http_2.12;2.3.0 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.slf4j#slf4j-api;1.7.22 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.7.22 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1036cb36
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@aa2081b
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.22
 [debug] 	found org.slf4j#slf4j-api;1.7.22 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.slf4j#slf4j-api;1.7.22 [compile->runtime]
@@ -163,7 +163,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.slf4j#slf4j-api;1.7.22 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.typesafe.scala-logging#scala-logging_2.12;3.5.0 [compile->default(compile)]
 [info] Resolving com.typesafe.scala-logging#scala-logging_2.12;3.5.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7eff741
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42dbb0c0
 [debug] sbt-chain: module revision found in cache: com.typesafe.scala-logging#scala-logging_2.12;3.5.0
 [debug] 	found com.typesafe.scala-logging#scala-logging_2.12;3.5.0 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.typesafe.scala-logging#scala-logging_2.12;3.5.0 [compile->runtime]
@@ -171,7 +171,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.typesafe.scala-logging#scala-logging_2.12;3.5.0 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->ch.qos.logback#logback-classic;1.1.7 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-classic;1.1.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@354a9961
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f8c3e4e
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.1.7
 [debug] 	found ch.qos.logback#logback-classic;1.1.7 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->ch.qos.logback#logback-classic;1.1.7 [compile->runtime]
@@ -179,7 +179,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->ch.qos.logback#logback-classic;1.1.7 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->ch.qos.logback#logback-core;1.1.7 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-core;1.1.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d9225a6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40689c7e
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.1.7
 [debug] 	found ch.qos.logback#logback-core;1.1.7 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->ch.qos.logback#logback-core;1.1.7 [compile->runtime]
@@ -187,7 +187,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->ch.qos.logback#logback-core;1.1.7 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.github.seratch#awscala_2.12;0.5.9 [compile->default(compile)]
 [info] Resolving com.github.seratch#awscala_2.12;0.5.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3304a21b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b18392f
 [debug] sbt-chain: module revision found in cache: com.github.seratch#awscala_2.12;0.5.9
 [debug] 	found com.github.seratch#awscala_2.12;0.5.9 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.github.seratch#awscala_2.12;0.5.9 [compile->runtime]
@@ -195,7 +195,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.github.seratch#awscala_2.12;0.5.9 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-iam;1.10.77 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-iam;1.10.77 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@264c02d3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@136600ea
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-iam;1.10.77
 [debug] 	found com.amazonaws#aws-java-sdk-iam;1.10.77 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-iam;1.10.77 [compile->runtime]
@@ -203,7 +203,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-iam;1.10.77 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-core;1.10.77 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-core;1.10.77 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@471843ef
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c3c1587
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-core;1.10.77
 [debug] 	found com.amazonaws#aws-java-sdk-core;1.10.77 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-core;1.10.77 [compile->runtime]
@@ -211,7 +211,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-core;1.10.77 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->commons-logging#commons-logging;1.1.3 [compile->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16859afc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5767a376
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.3
 [debug] 	found commons-logging#commons-logging;1.1.3 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->commons-logging#commons-logging;1.1.3 [compile->runtime]
@@ -219,7 +219,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->commons-logging#commons-logging;1.1.3 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.apache.httpcomponents#httpclient;4.3.6 [compile->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpclient;4.3.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@13a0dede
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@511f9ad4
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.3.6
 [debug] 	found org.apache.httpcomponents#httpclient;4.3.6 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.apache.httpcomponents#httpclient;4.3.6 [compile->runtime]
@@ -227,7 +227,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.apache.httpcomponents#httpclient;4.3.6 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.apache.httpcomponents#httpcore;4.3.3 [compile->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpcore;4.3.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@334e99ce
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63166526
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.3.3
 [debug] 	found org.apache.httpcomponents#httpcore;4.3.3 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.apache.httpcomponents#httpcore;4.3.3 [compile->runtime]
@@ -235,7 +235,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.apache.httpcomponents#httpcore;4.3.3 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->commons-codec#commons-codec;1.6 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2728d554
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a936706
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.6
 [debug] 	found commons-codec#commons-codec;1.6 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->commons-codec#commons-codec;1.6 [compile->runtime]
@@ -243,7 +243,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->commons-codec#commons-codec;1.6 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.fasterxml.jackson.core#jackson-databind;2.5.3 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-databind;2.5.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5cf64e4c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@132e44af
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.5.3
 [debug] 	found com.fasterxml.jackson.core#jackson-databind;2.5.3 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.fasterxml.jackson.core#jackson-databind;2.5.3 [compile->runtime]
@@ -251,7 +251,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.fasterxml.jackson.core#jackson-databind;2.5.3 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.fasterxml.jackson.core#jackson-annotations;2.5.0 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-annotations;2.5.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@524e638c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@19b83c2d
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.5.0
 [debug] 	found com.fasterxml.jackson.core#jackson-annotations;2.5.0 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.fasterxml.jackson.core#jackson-annotations;2.5.0 [compile->runtime]
@@ -259,7 +259,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.fasterxml.jackson.core#jackson-annotations;2.5.0 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.fasterxml.jackson.core#jackson-core;2.5.3 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-core;2.5.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e27066f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@326c70db
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.5.3
 [debug] 	found com.fasterxml.jackson.core#jackson-core;2.5.3 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.fasterxml.jackson.core#jackson-core;2.5.3 [compile->runtime]
@@ -267,7 +267,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.fasterxml.jackson.core#jackson-core;2.5.3 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.5.3 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.5.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50303586
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@343a9665
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.5.3
 [debug] 	found com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.5.3 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.5.3 [compile->runtime]
@@ -275,7 +275,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.5.3 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-sts;1.10.77 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-sts;1.10.77 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6bf2b3bf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48fba92
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-sts;1.10.77
 [debug] 	found com.amazonaws#aws-java-sdk-sts;1.10.77 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-sts;1.10.77 [compile->runtime]
@@ -283,7 +283,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-sts;1.10.77 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-ec2;1.10.77 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-ec2;1.10.77 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5047d720
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@54d95a9b
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-ec2;1.10.77
 [debug] 	found com.amazonaws#aws-java-sdk-ec2;1.10.77 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-ec2;1.10.77 [compile->runtime]
@@ -291,7 +291,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-ec2;1.10.77 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-s3;1.10.77 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-s3;1.10.77 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55ed7a75
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5faf5964
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-s3;1.10.77
 [debug] 	found com.amazonaws#aws-java-sdk-s3;1.10.77 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-s3;1.10.77 [compile->runtime]
@@ -299,7 +299,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-s3;1.10.77 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-kms;1.10.77 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-kms;1.10.77 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6850f9ab
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76e5f59b
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-kms;1.10.77
 [debug] 	found com.amazonaws#aws-java-sdk-kms;1.10.77 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-kms;1.10.77 [compile->runtime]
@@ -307,7 +307,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-kms;1.10.77 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-sqs;1.10.77 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-sqs;1.10.77 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f3a04f4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c0648bb
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-sqs;1.10.77
 [debug] 	found com.amazonaws#aws-java-sdk-sqs;1.10.77 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-sqs;1.10.77 [compile->runtime]
@@ -315,7 +315,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-sqs;1.10.77 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-emr;1.10.77 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-emr;1.10.77 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@708c0c12
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e87ea74
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-emr;1.10.77
 [debug] 	found com.amazonaws#aws-java-sdk-emr;1.10.77 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-emr;1.10.77 [compile->runtime]
@@ -323,7 +323,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-emr;1.10.77 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-redshift;1.10.77 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-redshift;1.10.77 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49f1beaf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@333ac809
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-redshift;1.10.77
 [debug] 	found com.amazonaws#aws-java-sdk-redshift;1.10.77 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-redshift;1.10.77 [compile->runtime]
@@ -331,7 +331,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-redshift;1.10.77 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-dynamodb;1.10.77 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-dynamodb;1.10.77 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3782390c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6992e96a
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-dynamodb;1.10.77
 [debug] 	found com.amazonaws#aws-java-sdk-dynamodb;1.10.77 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-dynamodb;1.10.77 [compile->runtime]
@@ -339,7 +339,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-dynamodb;1.10.77 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-simpledb;1.10.77 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-simpledb;1.10.77 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d46bd51
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@293bcc15
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-simpledb;1.10.77
 [debug] 	found com.amazonaws#aws-java-sdk-simpledb;1.10.77 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-simpledb;1.10.77 [compile->runtime]
@@ -347,7 +347,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->com.amazonaws#aws-java-sdk-simpledb;1.10.77 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->joda-time#joda-time;2.9.6 [compile->default(compile)]
 [info] Resolving joda-time#joda-time;2.9.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1eea84f4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24fa895c
 [debug] sbt-chain: module revision found in cache: joda-time#joda-time;2.9.6
 [debug] 	found joda-time#joda-time;2.9.6 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->joda-time#joda-time;2.9.6 [compile->runtime]
@@ -355,7 +355,7 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->joda-time#joda-time;2.9.6 [compile->master]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.joda#joda-convert;1.8.1 [compile->default(compile)]
 [info] Resolving org.joda#joda-convert;1.8.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c52f2fb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e67186c
 [debug] sbt-chain: module revision found in cache: org.joda#joda-convert;1.8.1
 [debug] 	found org.joda#joda-convert;1.8.1 in sbt-chain
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.joda#joda-convert;1.8.1 [compile->runtime]
@@ -1228,6 +1228,38 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.joda#joda-convert;1.8.1 [test->runtime]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.joda#joda-convert;1.8.1 [test->compile]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.joda#joda-convert;1.8.1 [test->master]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->default(compile)]
+[info] Resolving org.scalatest#scalatest_2.11;3.0.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c64f12e
+[debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;3.0.1
+[debug] 	found org.scalatest#scalatest_2.11;3.0.1 in sbt-chain
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->runtime]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->compile]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->master]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scalactic#scalactic_2.11;3.0.1 [test->default(compile)]
+[info] Resolving org.scalactic#scalactic_2.11;3.0.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46775694
+[debug] sbt-chain: module revision found in cache: org.scalactic#scalactic_2.11;3.0.1
+[debug] 	found org.scalactic#scalactic_2.11;3.0.1 in sbt-chain
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scalactic#scalactic_2.11;3.0.1 [test->runtime]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scalactic#scalactic_2.11;3.0.1 [test->compile]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scalactic#scalactic_2.11;3.0.1 [test->master]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.5 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@123d5b8a
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.5
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.5 in sbt-chain
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->runtime]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->compile]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->master]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@cc38c90
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->runtime]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->master]
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for default#socrata-servant$sources_2.12;1.0 [provided]
 [debug] resolving dependencies for configuration 'optional'
@@ -2623,6 +2655,22 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.joda#joda-convert;1.8.1 [test->runtime]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.joda#joda-convert;1.8.1 [test->compile]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.joda#joda-convert;1.8.1 [test->master]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->default(compile)]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->runtime]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->compile]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->master]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scalactic#scalactic_2.11;3.0.1 [test->default(compile)]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scalactic#scalactic_2.11;3.0.1 [test->runtime]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scalactic#scalactic_2.11;3.0.1 [test->compile]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scalactic#scalactic_2.11;3.0.1 [test->master]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->default(compile)]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->runtime]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->compile]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->master]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->default(compile)]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->runtime]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->master]
 [debug] == resolving dependencies for default#socrata-servant$sources_2.12;1.0 [optional]
 [debug] == resolving dependencies for default#socrata-servant$sources_2.12;1.0 [provided]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [test-internal->default(compile)]
@@ -2797,6 +2845,22 @@
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.joda#joda-convert;1.8.1 [test-internal->runtime]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.joda#joda-convert;1.8.1 [test-internal->compile]
 [debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.joda#joda-convert;1.8.1 [test-internal->master]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scalatest#scalatest_2.11;3.0.1 [test-internal->default(compile)]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scalatest#scalatest_2.11;3.0.1 [test-internal->runtime]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scalatest#scalatest_2.11;3.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scalatest#scalatest_2.11;3.0.1 [test-internal->master]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scalactic#scalactic_2.11;3.0.1 [test-internal->default(compile)]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scalactic#scalactic_2.11;3.0.1 [test-internal->runtime]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scalactic#scalactic_2.11;3.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scalactic#scalactic_2.11;3.0.1 [test-internal->master]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test-internal->default(compile)]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test-internal->runtime]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test-internal->compile]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test-internal->master]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->default(compile)]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->runtime]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->compile]
+[debug] == resolving dependencies default#socrata-servant$sources_2.12;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->master]
 [debug] resolving dependencies for configuration 'plugin'
 [debug] == resolving dependencies for default#socrata-servant$sources_2.12;1.0 [plugin]
 [debug] resolving dependencies for configuration 'sources'
@@ -2878,8 +2942,8 @@
 [debug] 	[NOT REQUIRED] org.spire-math#jawn-parser_2.12;0.10.4!jawn-parser_2.12.jar
 [debug] 	[NOT REQUIRED] io.circe#circe-java8_2.12;0.7.0-M2!circe-java8_2.12.jar(src)
 [debug] 	[NOT REQUIRED] io.circe#circe-java8_2.12;0.7.0-M2!circe-java8_2.12.jar
-[debug] 	[NOT REQUIRED] org.scalaj#scalaj-http_2.12;2.3.0!scalaj-http_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scalaj#scalaj-http_2.12;2.3.0!scalaj-http_2.12.jar
+[debug] 	[NOT REQUIRED] org.scalaj#scalaj-http_2.12;2.3.0!scalaj-http_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.22!slf4j-api.jar
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.22!slf4j-api.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.scala-logging#scala-logging_2.12;3.5.0!scala-logging_2.12.jar
@@ -2889,204 +2953,86 @@
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.1.7!logback-core.jar
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.1.7!logback-core.jar(src)
 [debug] 	[NOT REQUIRED] com.github.seratch#awscala_2.12;0.5.9!awscala_2.12.jar
-[debug] 		tried /Users/francescoperera/.ivy2/local/com.github.seratch/awscala_2.12/0.5.9/srcs/awscala_2.12-sources.jar
-[debug] 		tried https://jcenter.bintray.com/com/github/seratch/awscala_2.12/0.5.9/awscala_2.12-0.5.9-sources.jar
-[info] downloading https://jcenter.bintray.com/com/github/seratch/awscala_2.12/0.5.9/awscala_2.12-0.5.9-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/seratch/awscala_2.12/0.5.9/awscala_2.12-0.5.9-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/seratch/awscala_2.12/0.5.9/awscala_2.12-0.5.9-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/github/seratch/awscala_2.12/0.5.9/awscala_2.12-0.5.9-sources.jar
-[info] 	[SUCCESSFUL ] com.github.seratch#awscala_2.12;0.5.9!awscala_2.12.jar(src) (12258ms)
-[debug] 		tried /Users/francescoperera/.ivy2/local/com.amazonaws/aws-java-sdk-iam/1.10.77/srcs/aws-java-sdk-iam-sources.jar
+[debug] 	[NOT REQUIRED] com.github.seratch#awscala_2.12;0.5.9!awscala_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-iam;1.10.77!aws-java-sdk-iam.jar(src)
 [debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-iam;1.10.77!aws-java-sdk-iam.jar
-[debug] 		tried https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-iam/1.10.77/aws-java-sdk-iam-1.10.77-sources.jar
-[info] downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-iam/1.10.77/aws-java-sdk-iam-1.10.77-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-iam/1.10.77/aws-java-sdk-iam-1.10.77-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-iam/1.10.77/aws-java-sdk-iam-1.10.77-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-iam/1.10.77/aws-java-sdk-iam-1.10.77-sources.jar
-[info] 	[SUCCESSFUL ] com.amazonaws#aws-java-sdk-iam;1.10.77!aws-java-sdk-iam.jar(src) (16209ms)
-[debug] 		tried /Users/francescoperera/.ivy2/local/com.amazonaws/aws-java-sdk-core/1.10.77/srcs/aws-java-sdk-core-sources.jar
+[debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-core;1.10.77!aws-java-sdk-core.jar(src)
 [debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-core;1.10.77!aws-java-sdk-core.jar
-[debug] 		tried https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-core/1.10.77/aws-java-sdk-core-1.10.77-sources.jar
-[info] downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-core/1.10.77/aws-java-sdk-core-1.10.77-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-core/1.10.77/aws-java-sdk-core-1.10.77-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-core/1.10.77/aws-java-sdk-core-1.10.77-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-core/1.10.77/aws-java-sdk-core-1.10.77-sources.jar
-[info] 	[SUCCESSFUL ] com.amazonaws#aws-java-sdk-core;1.10.77!aws-java-sdk-core.jar(src) (15256ms)
 [debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.1.3!commons-logging.jar
-[debug] 		tried /Users/francescoperera/.ivy2/local/commons-logging/commons-logging/1.1.3/srcs/commons-logging-sources.jar
-[debug] 		tried https://jcenter.bintray.com/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-sources.jar
-[info] downloading https://jcenter.bintray.com/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-sources.jar
-[info] 	[SUCCESSFUL ] commons-logging#commons-logging;1.1.3!commons-logging.jar(src) (14470ms)
-[debug] 		tried /Users/francescoperera/.ivy2/local/org.apache.httpcomponents/httpclient/4.3.6/srcs/httpclient-sources.jar
+[debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.1.3!commons-logging.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.3.6!httpclient.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.3.6!httpclient.jar
-[debug] 		tried https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6-sources.jar
-[info] downloading https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.httpcomponents#httpclient;4.3.6!httpclient.jar(src) (14359ms)
-[debug] 		tried /Users/francescoperera/.ivy2/local/org.apache.httpcomponents/httpcore/4.3.3/srcs/httpcore-sources.jar
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.3.3!httpcore.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.3.3!httpcore.jar
-[debug] 		tried https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3-sources.jar
-[info] downloading https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.httpcomponents#httpcore;4.3.3!httpcore.jar(src) (13174ms)
 [debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.6!commons-codec.jar
 [debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.6!commons-codec.jar(src)
-[debug] 		tried /Users/francescoperera/.ivy2/local/com.fasterxml.jackson.core/jackson-databind/2.5.3/jars/jackson-databind.jar
-[debug] 		tried /Users/francescoperera/.ivy2/local/com.fasterxml.jackson.core/jackson-databind/2.5.3/srcs/jackson-databind-sources.jar
-[debug] 		tried https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.5.3/jackson-databind-2.5.3.jar
-[info] downloading https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.5.3/jackson-databind-2.5.3.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.5.3/jackson-databind-2.5.3.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.5.3/jackson-databind-2.5.3.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.5.3/jackson-databind-2.5.3.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.5.3!jackson-databind.jar (11762ms)
-[debug] 		tried https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.5.3/jackson-databind-2.5.3-sources.jar
-[info] downloading https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.5.3/jackson-databind-2.5.3-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.5.3/jackson-databind-2.5.3-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.5.3/jackson-databind-2.5.3-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.5.3/jackson-databind-2.5.3-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.5.3!jackson-databind.jar(src) (11936ms)
-[debug] 		tried /Users/francescoperera/.ivy2/local/com.fasterxml.jackson.core/jackson-annotations/2.5.0/srcs/jackson-annotations-sources.jar
-[debug] 		tried /Users/francescoperera/.ivy2/local/com.fasterxml.jackson.core/jackson-annotations/2.5.0/jars/jackson-annotations.jar
-[debug] 		tried https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0-sources.jar
-[info] downloading https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.5.0!jackson-annotations.jar(src) (12864ms)
-[debug] 		tried https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.jar
-[info] downloading https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.5.0!jackson-annotations.jar (14975ms)
-[debug] 		tried /Users/francescoperera/.ivy2/local/com.fasterxml.jackson.core/jackson-core/2.5.3/jars/jackson-core.jar
-[debug] 		tried /Users/francescoperera/.ivy2/local/com.fasterxml.jackson.core/jackson-core/2.5.3/srcs/jackson-core-sources.jar
-[debug] 		tried https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3.jar
-[info] downloading https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.5.3!jackson-core.jar (8726ms)
-[debug] 		tried https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3-sources.jar
-[info] downloading https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.5.3!jackson-core.jar(src) (3717ms)
-[debug] 		tried /Users/francescoperera/.ivy2/local/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.5.3/jars/jackson-dataformat-cbor.jar
-[debug] 		tried /Users/francescoperera/.ivy2/local/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.5.3/srcs/jackson-dataformat-cbor-sources.jar
-[debug] 		tried https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.5.3/jackson-dataformat-cbor-2.5.3.jar
-[info] downloading https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.5.3/jackson-dataformat-cbor-2.5.3.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.5.3/jackson-dataformat-cbor-2.5.3.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.5.3/jackson-dataformat-cbor-2.5.3.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.5.3/jackson-dataformat-cbor-2.5.3.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.5.3!jackson-dataformat-cbor.jar (5095ms)
-[debug] 		tried https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.5.3/jackson-dataformat-cbor-2.5.3-sources.jar
-[info] downloading https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.5.3/jackson-dataformat-cbor-2.5.3-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.5.3/jackson-dataformat-cbor-2.5.3-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.5.3/jackson-dataformat-cbor-2.5.3-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.5.3/jackson-dataformat-cbor-2.5.3-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.5.3!jackson-dataformat-cbor.jar(src) (9390ms)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.5.3!jackson-databind.jar
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.5.3!jackson-databind.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.5.0!jackson-annotations.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.5.0!jackson-annotations.jar
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.5.3!jackson-core.jar
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.5.3!jackson-core.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.5.3!jackson-dataformat-cbor.jar
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.5.3!jackson-dataformat-cbor.jar(src)
 [debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-sts;1.10.77!aws-java-sdk-sts.jar
-[debug] 		tried /Users/francescoperera/.ivy2/local/com.amazonaws/aws-java-sdk-sts/1.10.77/srcs/aws-java-sdk-sts-sources.jar
-[debug] 		tried https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-sts/1.10.77/aws-java-sdk-sts-1.10.77-sources.jar
-[info] downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-sts/1.10.77/aws-java-sdk-sts-1.10.77-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-sts/1.10.77/aws-java-sdk-sts-1.10.77-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-sts/1.10.77/aws-java-sdk-sts-1.10.77-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-sts/1.10.77/aws-java-sdk-sts-1.10.77-sources.jar
-[info] 	[SUCCESSFUL ] com.amazonaws#aws-java-sdk-sts;1.10.77!aws-java-sdk-sts.jar(src) (10444ms)
+[debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-sts;1.10.77!aws-java-sdk-sts.jar(src)
 [debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-ec2;1.10.77!aws-java-sdk-ec2.jar
-[debug] 		tried /Users/francescoperera/.ivy2/local/com.amazonaws/aws-java-sdk-ec2/1.10.77/srcs/aws-java-sdk-ec2-sources.jar
-[debug] 		tried https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-ec2/1.10.77/aws-java-sdk-ec2-1.10.77-sources.jar
-[info] downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-ec2/1.10.77/aws-java-sdk-ec2-1.10.77-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-ec2/1.10.77/aws-java-sdk-ec2-1.10.77-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-ec2/1.10.77/aws-java-sdk-ec2-1.10.77-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-ec2/1.10.77/aws-java-sdk-ec2-1.10.77-sources.jar
-[info] 	[SUCCESSFUL ] com.amazonaws#aws-java-sdk-ec2;1.10.77!aws-java-sdk-ec2.jar(src) (11419ms)
+[debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-ec2;1.10.77!aws-java-sdk-ec2.jar(src)
 [debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-s3;1.10.77!aws-java-sdk-s3.jar
-[debug] 		tried /Users/francescoperera/.ivy2/local/com.amazonaws/aws-java-sdk-s3/1.10.77/srcs/aws-java-sdk-s3-sources.jar
-[debug] 		tried https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-s3/1.10.77/aws-java-sdk-s3-1.10.77-sources.jar
-[info] downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-s3/1.10.77/aws-java-sdk-s3-1.10.77-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-s3/1.10.77/aws-java-sdk-s3-1.10.77-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-s3/1.10.77/aws-java-sdk-s3-1.10.77-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-s3/1.10.77/aws-java-sdk-s3-1.10.77-sources.jar
-[info] 	[SUCCESSFUL ] com.amazonaws#aws-java-sdk-s3;1.10.77!aws-java-sdk-s3.jar(src) (9289ms)
-[debug] 		tried /Users/francescoperera/.ivy2/local/com.amazonaws/aws-java-sdk-kms/1.10.77/srcs/aws-java-sdk-kms-sources.jar
+[debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-s3;1.10.77!aws-java-sdk-s3.jar(src)
+[debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-kms;1.10.77!aws-java-sdk-kms.jar(src)
 [debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-kms;1.10.77!aws-java-sdk-kms.jar
-[debug] 		tried https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-kms/1.10.77/aws-java-sdk-kms-1.10.77-sources.jar
-[info] downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-kms/1.10.77/aws-java-sdk-kms-1.10.77-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-kms/1.10.77/aws-java-sdk-kms-1.10.77-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-kms/1.10.77/aws-java-sdk-kms-1.10.77-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-kms/1.10.77/aws-java-sdk-kms-1.10.77-sources.jar
-[info] 	[SUCCESSFUL ] com.amazonaws#aws-java-sdk-kms;1.10.77!aws-java-sdk-kms.jar(src) (9034ms)
 [debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-sqs;1.10.77!aws-java-sdk-sqs.jar
-[debug] 		tried /Users/francescoperera/.ivy2/local/com.amazonaws/aws-java-sdk-sqs/1.10.77/srcs/aws-java-sdk-sqs-sources.jar
-[debug] 		tried https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-sqs/1.10.77/aws-java-sdk-sqs-1.10.77-sources.jar
-[info] downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-sqs/1.10.77/aws-java-sdk-sqs-1.10.77-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-sqs/1.10.77/aws-java-sdk-sqs-1.10.77-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-sqs/1.10.77/aws-java-sdk-sqs-1.10.77-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-sqs/1.10.77/aws-java-sdk-sqs-1.10.77-sources.jar
-[info] 	[SUCCESSFUL ] com.amazonaws#aws-java-sdk-sqs;1.10.77!aws-java-sdk-sqs.jar(src) (9292ms)
+[debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-sqs;1.10.77!aws-java-sdk-sqs.jar(src)
 [debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-emr;1.10.77!aws-java-sdk-emr.jar
-[debug] 		tried /Users/francescoperera/.ivy2/local/com.amazonaws/aws-java-sdk-emr/1.10.77/srcs/aws-java-sdk-emr-sources.jar
-[debug] 		tried https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-emr/1.10.77/aws-java-sdk-emr-1.10.77-sources.jar
-[info] downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-emr/1.10.77/aws-java-sdk-emr-1.10.77-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-emr/1.10.77/aws-java-sdk-emr-1.10.77-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-emr/1.10.77/aws-java-sdk-emr-1.10.77-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-emr/1.10.77/aws-java-sdk-emr-1.10.77-sources.jar
-[info] 	[SUCCESSFUL ] com.amazonaws#aws-java-sdk-emr;1.10.77!aws-java-sdk-emr.jar(src) (10770ms)
-[debug] 		tried /Users/francescoperera/.ivy2/local/com.amazonaws/aws-java-sdk-redshift/1.10.77/srcs/aws-java-sdk-redshift-sources.jar
+[debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-emr;1.10.77!aws-java-sdk-emr.jar(src)
+[debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-redshift;1.10.77!aws-java-sdk-redshift.jar(src)
 [debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-redshift;1.10.77!aws-java-sdk-redshift.jar
-[debug] 		tried https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-redshift/1.10.77/aws-java-sdk-redshift-1.10.77-sources.jar
-[info] downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-redshift/1.10.77/aws-java-sdk-redshift-1.10.77-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-redshift/1.10.77/aws-java-sdk-redshift-1.10.77-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-redshift/1.10.77/aws-java-sdk-redshift-1.10.77-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-redshift/1.10.77/aws-java-sdk-redshift-1.10.77-sources.jar
-[info] 	[SUCCESSFUL ] com.amazonaws#aws-java-sdk-redshift;1.10.77!aws-java-sdk-redshift.jar(src) (12730ms)
 [debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-dynamodb;1.10.77!aws-java-sdk-dynamodb.jar
-[debug] 		tried /Users/francescoperera/.ivy2/local/com.amazonaws/aws-java-sdk-dynamodb/1.10.77/srcs/aws-java-sdk-dynamodb-sources.jar
-[debug] 		tried https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-dynamodb/1.10.77/aws-java-sdk-dynamodb-1.10.77-sources.jar
-[info] downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-dynamodb/1.10.77/aws-java-sdk-dynamodb-1.10.77-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-dynamodb/1.10.77/aws-java-sdk-dynamodb-1.10.77-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-dynamodb/1.10.77/aws-java-sdk-dynamodb-1.10.77-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-dynamodb/1.10.77/aws-java-sdk-dynamodb-1.10.77-sources.jar
-[info] 	[SUCCESSFUL ] com.amazonaws#aws-java-sdk-dynamodb;1.10.77!aws-java-sdk-dynamodb.jar(src) (16596ms)
+[debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-dynamodb;1.10.77!aws-java-sdk-dynamodb.jar(src)
 [debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-simpledb;1.10.77!aws-java-sdk-simpledb.jar
-[debug] 		tried /Users/francescoperera/.ivy2/local/com.amazonaws/aws-java-sdk-simpledb/1.10.77/srcs/aws-java-sdk-simpledb-sources.jar
-[debug] 		tried https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-simpledb/1.10.77/aws-java-sdk-simpledb-1.10.77-sources.jar
-[info] downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-simpledb/1.10.77/aws-java-sdk-simpledb-1.10.77-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-simpledb/1.10.77/aws-java-sdk-simpledb-1.10.77-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-simpledb/1.10.77/aws-java-sdk-simpledb-1.10.77-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-simpledb/1.10.77/aws-java-sdk-simpledb-1.10.77-sources.jar
-[info] 	[SUCCESSFUL ] com.amazonaws#aws-java-sdk-simpledb;1.10.77!aws-java-sdk-simpledb.jar(src) (15157ms)
+[debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-simpledb;1.10.77!aws-java-sdk-simpledb.jar(src)
 [debug] 	[NOT REQUIRED] joda-time#joda-time;2.9.6!joda-time.jar
-[debug] 		tried /Users/francescoperera/.ivy2/local/joda-time/joda-time/2.9.6/srcs/joda-time-sources.jar
-[debug] 		tried https://jcenter.bintray.com/joda-time/joda-time/2.9.6/joda-time-2.9.6-sources.jar
-[info] downloading https://jcenter.bintray.com/joda-time/joda-time/2.9.6/joda-time-2.9.6-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/joda-time/joda-time/2.9.6/joda-time-2.9.6-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/joda-time/joda-time/2.9.6/joda-time-2.9.6-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/joda-time/joda-time/2.9.6/joda-time-2.9.6-sources.jar
-[info] 	[SUCCESSFUL ] joda-time#joda-time;2.9.6!joda-time.jar(src) (16061ms)
-[debug] 		tried /Users/francescoperera/.ivy2/local/org.joda/joda-convert/1.8.1/srcs/joda-convert-sources.jar
+[debug] 	[NOT REQUIRED] joda-time#joda-time;2.9.6!joda-time.jar(src)
+[debug] 	[NOT REQUIRED] org.joda#joda-convert;1.8.1!joda-convert.jar(src)
 [debug] 	[NOT REQUIRED] org.joda#joda-convert;1.8.1!joda-convert.jar
-[debug] 		tried https://jcenter.bintray.com/org/joda/joda-convert/1.8.1/joda-convert-1.8.1-sources.jar
-[info] downloading https://jcenter.bintray.com/org/joda/joda-convert/1.8.1/joda-convert-1.8.1-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/joda/joda-convert/1.8.1/joda-convert-1.8.1-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/joda/joda-convert/1.8.1/joda-convert-1.8.1-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/joda/joda-convert/1.8.1/joda-convert-1.8.1-sources.jar
-[info] 	[SUCCESSFUL ] org.joda#joda-convert;1.8.1!joda-convert.jar(src) (14495ms)
+[debug] 		tried /Users/francescoperera/.ivy2/local/org.scalatest/scalatest_2.11/3.0.1/srcs/scalatest_2.11-sources.jar
+[debug] 		tried /Users/francescoperera/.ivy2/local/org.scalatest/scalatest_2.11/3.0.1/jars/scalatest_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/org/scalatest/scalatest_2.11/3.0.1/scalatest_2.11-3.0.1-sources.jar
+[info] downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/3.0.1/scalatest_2.11-3.0.1-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/3.0.1/scalatest_2.11-3.0.1-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/3.0.1/scalatest_2.11-3.0.1-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scalatest/scalatest_2.11/3.0.1/scalatest_2.11-3.0.1-sources.jar
+[info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.11;3.0.1!scalatest_2.11.jar(src) (3808ms)
+[debug] 		tried https://jcenter.bintray.com/org/scalatest/scalatest_2.11/3.0.1/scalatest_2.11-3.0.1.jar
+[info] downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/3.0.1/scalatest_2.11-3.0.1.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/3.0.1/scalatest_2.11-3.0.1.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/3.0.1/scalatest_2.11-3.0.1.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scalatest/scalatest_2.11/3.0.1/scalatest_2.11-3.0.1.jar
+[info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.11;3.0.1!scalatest_2.11.jar (7464ms)
+[debug] 		tried /Users/francescoperera/.ivy2/local/org.scalactic/scalactic_2.11/3.0.1/srcs/scalactic_2.11-sources.jar
+[debug] 		tried /Users/francescoperera/.ivy2/local/org.scalactic/scalactic_2.11/3.0.1/jars/scalactic_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.1/scalactic_2.11-3.0.1-sources.jar
+[info] downloading https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.1/scalactic_2.11-3.0.1-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.1/scalactic_2.11-3.0.1-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.1/scalactic_2.11-3.0.1-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.1/scalactic_2.11-3.0.1-sources.jar
+[info] 	[SUCCESSFUL ] org.scalactic#scalactic_2.11;3.0.1!scalactic_2.11.jar(src) (1335ms)
+[debug] 		tried https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.1/scalactic_2.11-3.0.1.jar
+[info] downloading https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.1/scalactic_2.11-3.0.1.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.1/scalactic_2.11-3.0.1.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.1/scalactic_2.11-3.0.1.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.1/scalactic_2.11-3.0.1.jar
+[info] 	[SUCCESSFUL ] org.scalactic#scalactic_2.11;3.0.1!scalactic_2.11.jar (1286ms)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.1!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.1!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.1!jline.jar(src)
-[debug] :: resolution report :: resolve 1318ms :: artifacts dl 299687ms
+[debug] :: resolution report :: resolve 4814ms :: artifacts dl 14134ms
 [debug] 	report for default#socrata-servant$sources_2.12;1.0 compile produced in /Users/francescoperera/Developer/datalogue/socrata-servant/target/resolution-cache/reports/default-socrata-servant$sources_2.12-compile.xml
 [debug] 	report for default#socrata-servant$sources_2.12;1.0 runtime produced in /Users/francescoperera/Developer/datalogue/socrata-servant/target/resolution-cache/reports/default-socrata-servant$sources_2.12-runtime.xml
 [debug] 	report for default#socrata-servant$sources_2.12;1.0 test produced in /Users/francescoperera/Developer/datalogue/socrata-servant/target/resolution-cache/reports/default-socrata-servant$sources_2.12-test.xml
@@ -3100,4 +3046,4 @@
 [debug] 	report for default#socrata-servant$sources_2.12;1.0 docs produced in /Users/francescoperera/Developer/datalogue/socrata-servant/target/resolution-cache/reports/default-socrata-servant$sources_2.12-docs.xml
 [debug] 	report for default#socrata-servant$sources_2.12;1.0 pom produced in /Users/francescoperera/Developer/datalogue/socrata-servant/target/resolution-cache/reports/default-socrata-servant$sources_2.12-pom.xml
 [debug] 	report for default#socrata-servant$sources_2.12;1.0 scala-tool produced in /Users/francescoperera/Developer/datalogue/socrata-servant/target/resolution-cache/reports/default-socrata-servant$sources_2.12-scala-tool.xml
-[debug] 	resolve done (1318ms resolve - 299687ms download)
+[debug] 	resolve done (4814ms resolve - 14134ms download)

@@ -22,7 +22,7 @@ object S3Client {
     val dtlData = "dtl-data"
   }
   object Path{
-    val dumpFolder = "PII/dump/"
+    val dumpFolder = "PII/dump_2.0/"
   }
 }
 

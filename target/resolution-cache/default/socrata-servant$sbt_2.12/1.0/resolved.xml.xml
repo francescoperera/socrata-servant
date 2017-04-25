@@ -4,7 +4,7 @@
 		module="socrata-servant$sbt_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20170221125412"
+		publication="20170227112030"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>
