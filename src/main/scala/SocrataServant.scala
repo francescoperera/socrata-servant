@@ -6,14 +6,15 @@ import io.circe.syntax._
 
 import scala.collection.mutable.ListBuffer
 import scala.collection.mutable
+import util.control.Breaks._
 
 
 
 object SocrataServant extends LazyLogging with  JsonWorkHorse {
 
-  private val limit = 10 //10000
+  private val limit = 10000
   private var offset = 0
-  private val maxOffset = 10//20000
+  private val maxOffset = 20000
 
   def main(args:Array[String]) = {
     args.length match {
@@ -32,18 +33,26 @@ object SocrataServant extends LazyLogging with  JsonWorkHorse {
     */
   def fetchData(str:String) = {
     val ldhp = ListBuffer[Vector[DatasetParams]]()
-    while (offset <= maxOffset){
-      ldhp += fetchDatasetTools(str,offset)
-      offset += limit
+    breakable {
+      while (offset <= maxOffset){
+        val dt: Vector[DatasetParams] = fetchDatasetTools(str,offset)
+        ldhp += dt
+        ///// TODO:double check this
+        if (dt.size < limit){
+          break()
+        }
+        ////
+        offset += limit
+      }
     }
     val fvhp: Vector[DatasetParams] = ldhp.toVector.flatten // fvhp = filtered vector of DatasetHtpParams
     logger.info(s"Servant found ${fvhp.size} potential datasets that contain the column ${str}")
     val fdt:Vector[DatasetParams] =  fvhp.filter(_.url.isDefined) // fdt = filtered Vector DatasetHttpParams
-//    val sd : Vector[NDJSONParams] = fdt.map( dt => DatasetExplorer.getDataWithCol(dt)) //sd = source data
-//    val fsd = sd.filter(_.data.isDefined) // fsd = filtered source data
-//    logger.info(s"Servant got data from ${fsd.size} datasets")
-//    val output:Vector[Vector[String]] = unwrapVector(fsd)
-//    saveToS3(output,str)
+    val sd : Vector[NDJSONParams] = fdt.map( dt => DatasetExplorer.getDataWithCol(dt)) //sd = source data
+    val fsd = sd.filter(_.data.isDefined) // fsd = filtered source data
+    logger.info(s"Servant got data from ${fsd.size} datasets")
+    val output:Vector[Vector[String]] = unwrapVector(fsd)
+    saveToS3(output,str)
   }
 
   /**
@@ -75,19 +84,18 @@ object SocrataServant extends LazyLogging with  JsonWorkHorse {
     jv.map(v => v.asArray.get.map(_.noSpaces))
 
 
-      //toJson(data.get).asArray.get.map(_.noSpaces)}
-    //Vector(Vector(""))
+    toJson(data.get).asArray.get.map(_.noSpaces)}
   }
 
-  def mappifyData(d:Option[String],colDesc:Option[String]) = { // : Vector[Map[String,String]]
+  def mappifyData(d:Option[String],colDesc:Vector[Option[String]]) = { // : Vector[Map[String,String]]
     //TODO:Hacky solution. Rewrite
     val objs: Vector[Json] = toJson(d.get).asArray.get
     val vm : Vector[Map[String,Json]] = objs.map(_.asObject.get.toMap) //vm = vector of maps
     val newVM = vm.map(m => m.map{case(k,v) => (k,v.asString.getOrElse(""))})
     val mutMap  = newVM.map{ m => collection.mutable.Map(m.toSeq: _*)}
-    val fm = mutMap.map{m => m += ("column_description" -> colDesc.getOrElse(""))}
+    val fm = mutMap.map{m => m += ("column_description" -> colDesc(0).getOrElse(""))}
     val immMap = fm.map(_.toMap)
-    //val jm = immMap.map(m =>m.map{case(k,v) => (k.asJson,v.asJson)})
+    val jm = immMap.map(m =>m.map{case(k,v) => (k.asJson,v.asJson)})
     immMap
 
   }

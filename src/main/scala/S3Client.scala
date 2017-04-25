@@ -12,7 +12,7 @@ object S3Client {
   implicit val s3 = S3(accessKeyId, secretAccessKey)
 
   def saveFile(file: File) = {
-    val path = Path.dumpFolder + file.getName
+    val path = Path.aggregateFolder + file.getName
     s3.put(Bucket(Buckets.dtlData), path, file)
   }
 
@@ -21,8 +21,9 @@ object S3Client {
   object Buckets {
     val dtlData = "dtl-data"
   }
-  object Path{
+  object Path {
     val dumpFolder = "PII/dump_2.0/"
+    val aggregateFolder = "PII/agg_data/"
   }
 }
 

@@ -4,15 +4,21 @@
     <list default="true" id="537b46de-9f3e-4aa0-9d47-3c52bc5c2755" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/DatasetExplorer$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/DatasetExplorer$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/DatasetExplorer.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/DatasetExplorer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/DatasetParams$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/DatasetParams$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/DatasetParams.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/DatasetParams.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/MetaDataExplorer$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/MetaDataExplorer$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/NDJSONParams$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/NDJSONParams$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/NDJSONParams.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/NDJSONParams.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/S3Client$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/S3Client$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/S3Client$Path$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/S3Client$Path$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/S3Client.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/S3Client.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/SocrataServant$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/SocrataServant$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/SocrataServant.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/SocrataServant.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/MetaDataExplorer.scala" afterPath="$PROJECT_DIR$/src/main/scala/MetaDataExplorer.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/S3Client.scala" afterPath="$PROJECT_DIR$/src/main/scala/S3Client.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/SocrataServant.scala" afterPath="$PROJECT_DIR$/src/main/scala/SocrataServant.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/run/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/run/$global/streams/out" />
     </list>
@@ -53,11 +59,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MetaDataExplorer.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MetaDataExplorer.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MetaDataExplorer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="57" column="19" lean-forward="false" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+            <state relative-caret-position="-162">
+              <caret line="23" column="128" lean-forward="false" selection-start-line="23" selection-start-column="128" selection-end-line="23" selection-end-column="128" />
               <folding>
                 <element signature="e#0#62#0" expanded="true" />
               </folding>
@@ -65,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SocrataServant.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SocrataServant.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/SocrataServant.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="571">
+              <caret line="83" column="19" lean-forward="true" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -80,8 +86,8 @@
       <file leaf-file-name="S3Client.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/S3Client.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="26" column="3" lean-forward="false" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -126,8 +132,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/JsonWorkHorse.scala" />
         <option value="$PROJECT_DIR$/family_name_socrata.json" />
         <option value="$PROJECT_DIR$/src/main/scala/S3Client.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/SocrataServant.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MetaDataExplorer.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/SocrataServant.scala" />
       </list>
     </option>
   </component>
@@ -835,12 +841,12 @@
       <workItem from="1489780573305" duration="439000" />
       <workItem from="1489783674327" duration="7129000" />
       <workItem from="1492641890663" duration="86000" />
-      <workItem from="1493130300314" duration="3788000" />
+      <workItem from="1493130300314" duration="7879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79018000" />
+    <option name="totallyTimeSpent" value="83109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-264" y="-1200" width="1127" height="1200" extended-state="6" />
@@ -1226,14 +1232,6 @@
     <entry file="file://$PROJECT_DIR$/work_address_socrata.json" />
     <entry file="file://$PROJECT_DIR$/middlename_socrata.json" />
     <entry file="file://$PROJECT_DIR$/waddress_socrata.json" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/S3Client.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/JsonWorkHorse.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1242,22 +1240,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SocrataServant.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/S3Client.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="26" column="3" lean-forward="false" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/MetaDataExplorer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="57" column="19" lean-forward="false" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+        <state relative-caret-position="-162">
+          <caret line="23" column="128" lean-forward="false" selection-start-line="23" selection-start-column="128" selection-end-line="23" selection-end-column="128" />
           <folding>
             <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SocrataServant.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="83" column="19" lean-forward="true" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>

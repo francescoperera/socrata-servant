@@ -9,7 +9,7 @@ import scalaj.http.{Http, HttpOptions, HttpResponse}
 case class SocrataHttpParams(colFieldName:String,limit:Int,offset:Int) /** contains all params need for a Socrata HTTP  Request */
 case class MetaData(cfn:Vector[String],cd:Vector[String],pl:Option[String]) /** contains a list of column field name,list of column descriptions and permalink from metadata. */
 case class DatasetParams(url:Option[String],colFieldName:Vector[String],colDesc:Vector[Option[String]]) /** contains all params needed to get dataset through HTTP */
-case class NDJSONParams(data:Option[String],colDesc:Option[String]) /** params needed to create NDJSON objects. data  from column field name and corresponding column_description */
+case class NDJSONParams(data:Option[String],colDesc:Vector[Option[String]]) /** params needed to create NDJSON objects. data  from column field name and corresponding column_description */
 
 object MetaDataExplorer extends LazyLogging with JsonWorkHorse {
 
@@ -20,16 +20,24 @@ object MetaDataExplorer extends LazyLogging with JsonWorkHorse {
     * @param sp - SocrataParams
     * @return Http Response in String format
     */
-  def sendRequest(sp:SocrataHttpParams):HttpResponse[String] =
+  def sendRequest(sp:SocrataHttpParams):HttpResponse[String] ={
+    println(s"http://api.us.socrata.com/api/catalog/v1?only=datasets&q=${sp.colFieldName}&offset=${sp.offset}&limit=${sp.limit}")
     Http(s"http://api.us.socrata.com/api/catalog/v1?only=datasets&q=${sp.colFieldName}&offset=${sp.offset}&limit=${sp.limit}")
       .header("X-App-Token",token).asString
+  }
+
+
 
   /**
     * Takes the body of a Http Response and returns the content under the key results
     * @param body - String
     * @return - optional vector of content under results
     */
-  def getStringMetaData(body:String):Option[Vector[Json]] = toJson(body).asObject.get.apply("results").get.asArray
+  def getStringMetaData(body:String):Option[Vector[Json]] = {
+    println(toJson(body).asObject.get.apply("results"))
+    println("HERE")
+    toJson(body).asObject.get.apply("results").get.asArray
+  }
 
   /**
     * Takes metadata( optional vector of Json) and a column name. For each Json object, the function grabs the content under
@@ -52,10 +60,6 @@ object MetaDataExplorer extends LazyLogging with JsonWorkHorse {
           val cd: Vector[String] = resource.asObject.get.apply("columns_description").get.
             asArray.get.flatMap(_.asString)
           val permalink : Option[String] = o.apply("permalink").get.asString
-          println(cfn)
-          println(cd)
-          println(permalink)
-          println()
           Some(MetaData(cfn,cd,permalink))
       }
     }
@@ -86,7 +90,6 @@ object MetaDataExplorer extends LazyLogging with JsonWorkHorse {
       case false =>
         DatasetParams(None,Vector(col),Vector(None))
     }}
-    println(vdp)
     vdp
   }
 }
@@ -105,24 +108,25 @@ object DatasetExplorer extends LazyLogging{
     * @param dst - DatasetTools( contains dataset url and column field name)
     * @return - HttpResponse in String format
     */
-//  def getDataWithCol(dst:DatasetParams):NDJSONParams = {
-//    val ppl = parsePermaLink(dst.url.get) //parsed permalink = ppl
-//    val select = "$select"
-//    val url = s"$ppl.json?$select=${dst.colFieldName.toLowerCase}"
-//    logger.info(s"sending HTTP request to $url")
-//    try{
-//      Thread.sleep(100)
-//      val resp = Http(url).option(HttpOptions.readTimeout(50000)).option(HttpOptions.connTimeout(10000)).asString
-//      logger.info(s"HTTP response code from $url is :${resp.code}")
-//      resp.isNotError match {
-//        case true => NDJSONParams(Some(resp.body),dst.colDesc)
-//        case false => NDJSONParams(None,dst.colDesc)
-//      }
-//    }
-//    catch {
-//      case uhe: UnknownHostException => NDJSONParams(None,None)
-//      case ste: SocketTimeoutException =>  NDJSONParams(None,None)
-//      case ssl: SSLHandshakeException =>  NDJSONParams(None,None)
-//    }
-//  }
+  def getDataWithCol(dst:DatasetParams):NDJSONParams = {
+    val ppl = parsePermaLink(dst.url.get) //parsed permalink = ppl
+    val select = "$select"
+    val cols: String = dst.colFieldName.map(_.toLowerCase).mkString(",")
+    val url = s"$ppl.json?$select=$cols"
+    logger.info(s"sending HTTP request to $url")
+    try{
+      Thread.sleep(100)
+      val resp = Http(url).option(HttpOptions.readTimeout(50000)).option(HttpOptions.connTimeout(10000)).asString
+      logger.info(s"HTTP response code from $url is :${resp.code}")
+      resp.isNotError match {
+        case true => NDJSONParams(Some(resp.body),dst.colDesc)
+        case false => NDJSONParams(None,dst.colDesc)
+      }
+    }
+    catch {
+      case uhe: UnknownHostException => NDJSONParams(None,Vector(None))
+      case ste: SocketTimeoutException =>  NDJSONParams(None,Vector(None))
+      case ssl: SSLHandshakeException =>  NDJSONParams(None,Vector(None))
+    }
+  }
 }
