@@ -91,7 +91,7 @@ object SocrataServant extends LazyLogging with  JsonWorkHorse {
     immMap
 
   }
-  
+
   def saveToS3(l:Vector[Vector[String]],cfn:String) = {
     val f = new File(s"${cfn}_socrata.json" )
     val pw = new PrintWriter(f)

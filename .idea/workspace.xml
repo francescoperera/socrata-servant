@@ -2,89 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="537b46de-9f3e-4aa0-9d47-3c52bc5c2755" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/DatasetHttpParams$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/DatasetHttpParams.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/DatasetExplorer$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/DatasetExplorer$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/DatasetExplorer.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/DatasetExplorer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/JsonWorkHorse.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/JsonWorkHorse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/MetaData$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/MetaData$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/MetaData.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/MetaData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/MetaDataExplorer$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/MetaDataExplorer$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/MetaDataExplorer.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/MetaDataExplorer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/S3Client$Path$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/S3Client$Path$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/SocrataServant$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/SocrataServant$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/SocrataServant.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/SocrataServant.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/socrata-servant.iml" afterPath="$PROJECT_DIR$/.idea/modules/socrata-servant.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/socrata-servant-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/socrata-servant-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/socrata-servant-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/socrata-servant-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-socrata-servant-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-socrata-servant-build-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-socrata-servant-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-socrata-servant-build-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-socrata-servant-build-docs.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-socrata-servant-build-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-socrata-servant-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-socrata-servant-build-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-socrata-servant-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-socrata-servant-build-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-socrata-servant-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-socrata-servant-build-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-socrata-servant-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-socrata-servant-build-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-socrata-servant-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-socrata-servant-build-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-socrata-servant-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-socrata-servant-build-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-socrata-servant-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-socrata-servant-build-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-socrata-servant-build-sources.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-socrata-servant-build-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-socrata-servant-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-socrata-servant-build-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-socrata-servant-build-test.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-socrata-servant-build-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/JsonWorkHorse.scala" afterPath="$PROJECT_DIR$/src/main/scala/JsonWorkHorse.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/MetaDataExplorer.scala" afterPath="$PROJECT_DIR$/src/main/scala/MetaDataExplorer.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/S3Client.scala" afterPath="$PROJECT_DIR$/src/main/scala/S3Client.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/SocrataServant.scala" afterPath="$PROJECT_DIR$/src/main/scala/SocrataServant.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/socrata-servant$sbt_2.12/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/default/socrata-servant$sbt_2.12/1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/socrata-servant$sbt_2.12/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/default/socrata-servant$sbt_2.12/1.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/socrata-servant$sources_2.12/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/default/socrata-servant$sources_2.12/1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/socrata-servant$sources_2.12/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/default/socrata-servant$sources_2.12/1.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/socrata-servant_2.12/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/default/socrata-servant_2.12/1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/socrata-servant_2.12/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/default/socrata-servant_2.12/1.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant$sbt_2.12-default.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant$sbt_2.12-default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant$sources_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant$sources_2.12-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant$sources_2.12-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant$sources_2.12-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant$sources_2.12-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant$sources_2.12-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant$sources_2.12-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant$sources_2.12-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant$sources_2.12-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant$sources_2.12-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant$sources_2.12-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant$sources_2.12-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant$sources_2.12-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant$sources_2.12-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant$sources_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant$sources_2.12-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant$sources_2.12-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant$sources_2.12-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant$sources_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant$sources_2.12-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant$sources_2.12-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant$sources_2.12-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant$sources_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant$sources_2.12-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant$sources_2.12-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant$sources_2.12-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant_2.12-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant_2.12-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant_2.12-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant_2.12-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant_2.12-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant_2.12-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant_2.12-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant_2.12-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant_2.12-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant_2.12-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant_2.12-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant_2.12-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant_2.12-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant_2.12-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant_2.12-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant_2.12-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant_2.12-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant_2.12-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant_2.12-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant_2.12-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant_2.12-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-socrata-servant_2.12-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/run/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/run/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
     </list>
     <ignored path="socrata-servant.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -123,11 +42,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MetaDataExplorer.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MetaDataExplorer.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MetaDataExplorer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="96" column="65" lean-forward="false" selection-start-line="96" selection-start-column="65" selection-end-line="96" selection-end-column="65" />
+            <state relative-caret-position="615">
+              <caret line="47" column="35" lean-forward="false" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
               <folding>
                 <element signature="e#0#62#0" expanded="true" />
               </folding>
@@ -135,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SocrataServant.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SocrataServant.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/SocrataServant.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="841">
-              <caret line="93" column="2" lean-forward="false" selection-start-line="93" selection-start-column="2" selection-end-line="93" selection-end-column="2" />
+            <state relative-caret-position="524">
+              <caret line="65" column="36" lean-forward="false" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -195,9 +114,9 @@
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/JsonWorkHorse.scala" />
         <option value="$PROJECT_DIR$/family_name_socrata.json" />
-        <option value="$PROJECT_DIR$/src/main/scala/MetaDataExplorer.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/S3Client.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/SocrataServant.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MetaDataExplorer.scala" />
       </list>
     </option>
   </component>
@@ -827,12 +746,12 @@
       <workItem from="1489780573305" duration="439000" />
       <workItem from="1489783674327" duration="7129000" />
       <workItem from="1492641890663" duration="86000" />
-      <workItem from="1493130300314" duration="245000" />
+      <workItem from="1493130300314" duration="1706000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75475000" />
+    <option name="totallyTimeSpent" value="76936000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-264" y="-1200" width="1127" height="1200" extended-state="6" />
@@ -1210,25 +1129,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/JsonWorkHorse.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="80" lean-forward="false" selection-start-line="8" selection-start-column="80" selection-end-line="8" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/family_name_socrata.json" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MetaDataExplorer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="96" column="65" lean-forward="false" selection-start-line="96" selection-start-column="65" selection-end-line="96" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/full_name_socrata.json" />
     <entry file="file://$PROJECT_DIR$/fullname_socrata.json" />
     <entry file="file://$PROJECT_DIR$/name_socrata.json" />
@@ -1244,12 +1145,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/JsonWorkHorse.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="80" lean-forward="false" selection-start-line="8" selection-start-column="80" selection-end-line="8" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/SocrataServant.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="93" column="2" lean-forward="false" selection-start-line="93" selection-start-column="2" selection-end-line="93" selection-end-column="2" />
+        <state relative-caret-position="524">
+          <caret line="65" column="36" lean-forward="false" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MetaDataExplorer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="47" column="35" lean-forward="false" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
           </folding>
         </state>
       </provider>

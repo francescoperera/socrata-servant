@@ -42,8 +42,15 @@ object MetaDataExplorer extends LazyLogging with JsonWorkHorse {
     */
   def checkCol(md:Option[Vector[Json]], col:String): Vector[DatasetParams]= {
     val fmd = md.get.map{obj =>
-      val cfn : Vector[String] = stringifyList(obj.\\("resource").map(_.\\("columns_field_name")).head)
-      val cd :Vector[String] = stringifyList(obj.\\("resource").map(_.\\("columns_description")).head)
+      obj.asObject match {
+        case None => None
+        case Some(o) =>
+          val resource: Option[Json] = o.apply("resource")
+          val cfn =
+      }
+
+//      val cfn : Vector[String] = stringifyList(obj.\\("resource").map(_.\\("columns_field_name")).head)
+//      val cd :Vector[String] = stringifyList(obj.\\("resource").map(_.\\("columns_description")).head)
       val permalink: Option[String] = obj.\\("permalink").head.asString
 //      MetaData(obj.\\("resource").map(_.\\("columns_field_name")).head,
 //        obj.\\("resource").map(_.\\("columns_description")).head,
@@ -58,9 +65,6 @@ object MetaDataExplorer extends LazyLogging with JsonWorkHorse {
         DatasetParams(None,col,None)
     }}
   }
-
-
-
 }
 
 object DatasetExplorer extends LazyLogging{
