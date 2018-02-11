@@ -12,7 +12,7 @@ case class DatasetHttpParams(url:Option[String],colFieldName:String) /** contain
 
 object MetaDataExplorer extends LazyLogging with JsonWorkHorse{
 
-  private val token = "GPGuyRELzwEXtRJbJDib89U59"
+  private val token = "" //TODO: ADD Socrata token here
 
   /**
     * Takes type SocrataParams, reads the columns and sends an http request to Socrata with the given cols.
