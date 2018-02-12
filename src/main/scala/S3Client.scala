@@ -4,8 +4,8 @@ import awscala.s3.{Bucket, S3}
 
 object S3Client {
 
-  private val accessKeyId = sys.env.getOrElse("S3_KEY_ID", "AKIAJZUC55ZOLZSRM7RQ")
-  private val secretAccessKey = sys.env.getOrElse("S3_KEY_SECRET", "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")
+  private val accessKeyId = sys.env.getOrElse("S3_KEY_ID", "") //TODO: Add cred
+  private val secretAccessKey = sys.env.getOrElse("S3_KEY_SECRET", "") //TODO: Add cred
 
   implicit val region = awscala.Region.US_EAST_1
 
